@@ -360,7 +360,7 @@ MonoBehaviour:
     m_Value: 0.5
   densityMultiplier:
     m_OverrideState: 1
-    m_Value: 0.853
+    m_Value: 0
   shapeFactor:
     m_OverrideState: 1
     m_Value: 0.85
