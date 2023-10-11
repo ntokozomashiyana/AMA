@@ -1,0 +1,116 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2e5269517f28664db5ccd78cbd208b1, type: 3}
+  m_Name: LabRat
+  m_EditorClassIdentifier: 
+  gameplayType: 1
+  profilePictureSmall: {fileID: 2800000, guid: 20bc080a790b5e64eab1c0c5dbefdc7d, type: 3}
+  profilePictureBig: {fileID: 2800000, guid: 20bc080a790b5e64eab1c0c5dbefdc7d, type: 3}
+  characterName: Lab Rat
+  gender: 0
+  characterDescription: 
+  selectionAnimation: {fileID: 0}
+  selectionSound: {fileID: 0}
+  deathSound: {fileID: 0}
+  height: 180
+  age: 30
+  bloodType: Unknown
+  lifePoints: 1000
+  maxGaugePoints: 1000
+  characterPrefabStorage: 0
+  characterPrefab: {fileID: 5407684261241743878, guid: 238cc34e54d40f54c8a29a188d8586ff,
+    type: 3}
+  prefabResourcePath: 
+  alternativeCostumes: []
+  initialPosition:
+    x:
+      _serializedValue: 2354587
+    y:
+      _serializedValue: 0
+    z:
+      _serializedValue: -298610016
+  initialRotation:
+    x:
+      _serializedValue: 0
+    y:
+      _serializedValue: 3008
+    z:
+      _serializedValue: 0
+    w:
+      _serializedValue: 4294967296
+  physics:
+    _moveForwardSpeed:
+      _serializedValue: 12884901888
+    _moveBackSpeed:
+      _serializedValue: 12884901888
+    _moveSidewaysSpeed:
+      _serializedValue: 12884901888
+    highMovingFriction: 1
+    _friction:
+      _serializedValue: 42949672960
+    canCrouch: 1
+    crouchDelay: 2
+    standingDelay: 2
+    canJump: 1
+    pressureSensitiveJump: 0
+    _jumpForce:
+      _serializedValue: 107374182400
+    _minJumpForce:
+      _serializedValue: 128849018880
+    minJumpDelay: 4
+    _jumpDistance:
+      _serializedValue: 17179869184
+    _jumpBackDistance:
+      _serializedValue: 17179869184
+    cumulativeForce: 1
+    multiJumps: 1
+    _weight:
+      _serializedValue: 858993459200
+    jumpDelay: 3
+    landingDelay: 3
+    _groundCollisionMass:
+      _serializedValue: 4294967296
+  headLook:
+    enabled: 1
+    segments: []
+    nonAffectedJoints: []
+    target: 1
+    effect: 1
+    overrideAnimation: 1
+    disableOnHit: 1
+  customControls:
+    overrideControlFreak: 0
+    controlFreak2Prefab: {fileID: 0}
+    zAxisMovement: 0
+    disableJump: 0
+    disableCrouch: 0
+    jumpButton: 2
+    crouchButton: 3
+  hideGauges: 00000000000000000000
+  _executionTiming:
+    _serializedValue: 1288490240
+  possibleAirMoves: 1
+  _blendingTime:
+    _serializedValue: 429496736
+  animationType: 1
+  avatar: {fileID: 9000000, guid: 77c94538499bed64c89ecf3c93a3b21d, type: 3}
+  useScaleFlip: 0
+  applyRootMotion: 0
+  animationFlow: 0
+  useAnimationMaps: 0
+  normalizeAnimationFrames: 1
+  stanceResourcePath:
+  - _3DFighter/MoveSets/Lab_Rat
+  moves: []
+  aiInstructionsSet:
+  - aiInfo: {fileID: 11400000, guid: 0cbb4bf9fc37e2540a4b1900a715cbb1, type: 2}
+    behavior: 3

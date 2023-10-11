@@ -1,2 +1,2 @@
-# AMA
-African Martial Arts 2nd Repo
+# A.M.A-African-Martial-Arts
+This is the official AMA repository.
