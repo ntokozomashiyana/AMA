@@ -27,33 +27,33 @@ MonoBehaviour:
   lifePoints: 1000
   maxGaugePoints: 1000
   characterPrefabStorage: 0
-  characterPrefab: {fileID: 8978045033804936459, guid: 4e64cc8b752b9514b8f83fb248ed316e,
+  characterPrefab: {fileID: 690544357840451786, guid: c869dd067b3ac2843a690cec76b2d6c5,
     type: 3}
   prefabResourcePath: 
   alternativeCostumes: []
   initialPosition:
     x:
-      _serializedValue: 0
+      _serializedValue: 2232476
     y:
       _serializedValue: 0
     z:
-      _serializedValue: 0
+      _serializedValue: -283123840
   initialRotation:
     x:
       _serializedValue: 0
     y:
-      _serializedValue: 0
+      _serializedValue: 3008
     z:
       _serializedValue: 0
     w:
       _serializedValue: 4294967296
   physics:
     _moveForwardSpeed:
-      _serializedValue: 38654705664
-    _moveBackSpeed:
-      _serializedValue: 34359738368
-    _moveSidewaysSpeed:
       _serializedValue: 17179869184
+    _moveBackSpeed:
+      _serializedValue: 17179869184
+    _moveSidewaysSpeed:
+      _serializedValue: 12884901888
     highMovingFriction: 1
     _friction:
       _serializedValue: 128849018880
@@ -80,7 +80,7 @@ MonoBehaviour:
     _groundCollisionMass:
       _serializedValue: 8589934592
   headLook:
-    enabled: 1
+    enabled: 0
     segments:
     - firstTransform: {fileID: 0}
       lastTransform: {fileID: 0}
@@ -110,7 +110,7 @@ MonoBehaviour:
   _blendingTime:
     _serializedValue: 429496736
   animationType: 1
-  avatar: {fileID: 9000000, guid: 27f77f1dcc7316c4eb400373f9529ea2, type: 3}
+  avatar: {fileID: 9000000, guid: ebcad95546eebd94cb2fef7776d1217e, type: 3}
   useScaleFlip: 0
   applyRootMotion: 0
   animationFlow: 0
