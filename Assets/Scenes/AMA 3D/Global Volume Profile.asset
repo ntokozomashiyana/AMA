@@ -456,7 +456,7 @@ MonoBehaviour:
   active: 1
   quality:
     m_OverrideState: 1
-    m_Value: 3
+    m_Value: 0
   enabled:
     m_OverrideState: 1
     m_Value: 1
@@ -510,7 +510,7 @@ MonoBehaviour:
     m_Value: 0
   m_RayMaxIterations:
     m_OverrideState: 1
-    m_Value: 256
+    m_Value: 16
   rayMiss:
     m_OverrideState: 0
     m_Value: 3
@@ -710,7 +710,7 @@ MonoBehaviour:
     m_Value: 2
   focusMode:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 2
   focusDistance:
     m_OverrideState: 1
     m_Value: 0.69
@@ -719,16 +719,16 @@ MonoBehaviour:
     m_Value: 1
   nearFocusStart:
     m_OverrideState: 0
-    m_Value: 0
+    m_Value: 0.99999
   nearFocusEnd:
     m_OverrideState: 0
-    m_Value: 4
+    m_Value: 1
   farFocusStart:
-    m_OverrideState: 0
-    m_Value: 10
+    m_OverrideState: 1
+    m_Value: 19.4
   farFocusEnd:
-    m_OverrideState: 0
-    m_Value: 20
+    m_OverrideState: 1
+    m_Value: 25.42
   m_NearSampleCount:
     m_OverrideState: 1
     m_Value: 8

@@ -27,7 +27,7 @@ MonoBehaviour:
     supportVolumetricClouds: 1
     supportLightLayers: 0
     supportWater: 1
-    waterSimulationResolution: 128
+    waterSimulationResolution: 256
     waterCPUSimulation: 0
     supportDistortion: 1
     supportTransparentBackface: 1
@@ -38,7 +38,7 @@ MonoBehaviour:
     customBufferFormat: 8
     supportedLitShaderMode: 2
     planarReflectionResolution:
-      m_Values: 000100000004000000080000
+      m_Values: 000100000004000000040000
       m_SchemaId:
         m_Id: With3Levels
     cubeReflectionResolution:
@@ -72,11 +72,11 @@ MonoBehaviour:
       maxEnvLightsOnScreen: 0
       reflectionCacheCompressed: 0
       reflectionProbeFormat: 74
-      reflectionProbeTexCacheSize: 4096
+      reflectionProbeTexCacheSize: 1024
       reflectionProbeTexLastValidCubeMip: 3
       reflectionProbeTexLastValidPlanarMip: 0
       reflectionProbeDecreaseResToFit: 1
-      skyReflectionSize: 256
+      skyReflectionSize: 1024
       skyLightingOverrideLayerMask:
         serializedVersion: 2
         m_Bits: 0
@@ -182,7 +182,7 @@ MonoBehaviour:
       ChromaticAberrationMaxSamples: 03000000060000000c000000
     lightSettings:
       useContactShadow:
-        m_Values: 000001
+        m_Values: 010000
         m_SchemaId:
           m_Id: With3Levels
     maximumLODLevel:
