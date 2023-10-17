@@ -169,7 +169,7 @@ Transform:
   - {fileID: 1552026329085593698}
   - {fileID: 4754352254637178850}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &5926079888518952508
 Animator:
@@ -822,6 +822,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6079712801394480242}
+  - component: {fileID: 1069081933248003425}
   m_Layer: 0
   m_Name: foot.l
   m_TagString: Untagged
@@ -845,6 +846,29 @@ Transform:
   m_Father: {fileID: 1219428365584420624}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!136 &1069081933248003425
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2623817146898809480}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.08
+  m_Height: 0.22
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.06, z: 0}
 --- !u!1 &2748845598165127328
 GameObject:
   m_ObjectHideFlags: 0
@@ -1570,6 +1594,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3285543451943104158}
   - component: {fileID: 8540469924769953628}
+  - component: {fileID: 8227512884057301556}
   m_Layer: 0
   m_Name: TORSO.002
   m_TagString: Untagged
@@ -1704,6 +1729,29 @@ SkinnedMeshRenderer:
     m_Center: {x: 0.000056251884, y: -0.7058623, z: -0.05398802}
     m_Extent: {x: 0.31388324, y: 0.18263173, z: 0.12296449}
   m_DirtyAABB: 0
+--- !u!136 &8227512884057301556
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4206622321417088261}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.3138836
+  m_Height: 0.24601999
+  m_Direction: 1
+  m_Center: {x: -0.0006861649, y: 0.026418002, z: 0.12611634}
 --- !u!1 &4508756513400013529
 GameObject:
   m_ObjectHideFlags: 0
@@ -1846,8 +1894,8 @@ SkinnedMeshRenderer:
   m_BlendShapeWeights: []
   m_RootBone: {fileID: 5932171351823870246}
   m_AABB:
-    m_Center: {x: NaN, y: NaN, z: NaN}
-    m_Extent: {x: NaN, y: NaN, z: NaN}
+    m_Center: {x: 0.0026519299, y: 0.5446982, z: -0.0070163608}
+    m_Extent: {x: 0.123110026, y: 0.15084785, z: 0.14224316}
   m_DirtyAABB: 0
 --- !u!183 &4238284952490297873
 Cloth:
@@ -117928,6 +117976,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6654504990210488937}
+  - component: {fileID: 5527513193583489448}
   m_Layer: 0
   m_Name: foot.r
   m_TagString: Untagged
@@ -117951,6 +118000,29 @@ Transform:
   m_Father: {fileID: 788548413677300543}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!136 &5527513193583489448
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4749267249953545925}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.06
+  m_Height: 0.27
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.06, z: 0}
 --- !u!1 &4924103645878695798
 GameObject:
   m_ObjectHideFlags: 0
