@@ -712,12 +712,12 @@ MonoBehaviour:
   muteAnnouncer: 0
   announcer:
     announcerName: 
-    round1: {fileID: 8300000, guid: f475a23da438b434989d3510c6394779, type: 3}
-    round2: {fileID: 8300000, guid: 4d2ddf6c55385b24c9d5684bf7dfdd09, type: 3}
-    round3: {fileID: 8300000, guid: 8f28c0add4599cb409fde079faf05036, type: 3}
-    otherRounds: {fileID: 8300000, guid: 8f28c0add4599cb409fde079faf05036, type: 3}
-    finalRound: {fileID: 8300000, guid: 8f28c0add4599cb409fde079faf05036, type: 3}
-    fight: {fileID: 8300000, guid: 8e39e137a16e6d44699979a55a3f5391, type: 3}
+    round1: {fileID: 0}
+    round2: {fileID: 0}
+    round3: {fileID: 0}
+    otherRounds: {fileID: 0}
+    finalRound: {fileID: 0}
+    fight: {fileID: 0}
     player1Wins: {fileID: 0}
     player2Wins: {fileID: 0}
     perfect: {fileID: 0}
@@ -772,7 +772,6 @@ MonoBehaviour:
   timer: {fileID: 5203282447950010529}
   lifeDownSpeed: 500
   lifeUpSpeed: 800
-  pauseScreen: {fileID: 11400000, guid: 6241d31f6482b42a88a8e7c8b62e2716, type: 3}
   networkPlayerPointer: {fileID: 0}
   pointerTimer: 4
 --- !u!1 &1571643097259635993
