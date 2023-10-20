@@ -207,7 +207,7 @@ MonoBehaviour:
     m_Value: 0.5
   densityMultiplier:
     m_OverrideState: 1
-    m_Value: 0.197
+    m_Value: 0.034
   shapeFactor:
     m_OverrideState: 1
     m_Value: 0.803
