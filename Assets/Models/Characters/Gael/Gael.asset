@@ -27,7 +27,7 @@ MonoBehaviour:
   lifePoints: 1000
   maxGaugePoints: 1000
   characterPrefabStorage: 0
-  characterPrefab: {fileID: 8105550085860866149, guid: cf66201f084f87e42985e5930cbda14b,
+  characterPrefab: {fileID: 1127499414504257467, guid: af1e1d1ec31ba2b40a8b388322752832,
     type: 3}
   prefabResourcePath: 
   alternativeCostumes: []
@@ -49,9 +49,9 @@ MonoBehaviour:
       _serializedValue: 4294967296
   physics:
     _moveForwardSpeed:
-      _serializedValue: 38654705664
+      _serializedValue: 17179869184
     _moveBackSpeed:
-      _serializedValue: 34359738368
+      _serializedValue: 17179869184
     _moveSidewaysSpeed:
       _serializedValue: 17179869184
     highMovingFriction: 1
@@ -63,7 +63,7 @@ MonoBehaviour:
     canJump: 1
     pressureSensitiveJump: 0
     _jumpForce:
-      _serializedValue: 171798691840
+      _serializedValue: 64424509440
     _minJumpForce:
       _serializedValue: 128849018880
     minJumpDelay: 4
@@ -78,7 +78,7 @@ MonoBehaviour:
     jumpDelay: 8
     landingDelay: 7
     _groundCollisionMass:
-      _serializedValue: 8589934592
+      _serializedValue: 2147483648
   headLook:
     enabled: 1
     segments: []
@@ -102,14 +102,14 @@ MonoBehaviour:
   _blendingTime:
     _serializedValue: 429496736
   animationType: 1
-  avatar: {fileID: 9000000, guid: ab45be1273ad6fa48bafdc6e1eb77780, type: 3}
+  avatar: {fileID: 9000000, guid: a7900c5c972fc904a8f91c9a3339ea46, type: 3}
   useScaleFlip: 0
   applyRootMotion: 0
   animationFlow: 0
   useAnimationMaps: 0
   normalizeAnimationFrames: 1
   stanceResourcePath:
-  - _3DFighter/MoveSets/Ethan_Stance_1
+  - _3DFighter/MoveSets/Lab_Rat
   moves: []
   aiInstructionsSet:
   - aiInfo: {fileID: 11400000, guid: 5c7f03bfedfeaca42a91e28c053f9ce0, type: 2}

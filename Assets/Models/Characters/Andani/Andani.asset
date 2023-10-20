@@ -33,16 +33,16 @@ MonoBehaviour:
   alternativeCostumes: []
   initialPosition:
     x:
-      _serializedValue: 2232476
+      _serializedValue: 0
     y:
       _serializedValue: 0
     z:
-      _serializedValue: -283123840
+      _serializedValue: 0
   initialRotation:
     x:
       _serializedValue: 0
     y:
-      _serializedValue: 3008
+      _serializedValue: 0
     z:
       _serializedValue: 0
     w:
@@ -63,7 +63,7 @@ MonoBehaviour:
     canJump: 1
     pressureSensitiveJump: 0
     _jumpForce:
-      _serializedValue: 171798691840
+      _serializedValue: 64424509440
     _minJumpForce:
       _serializedValue: 128849018880
     minJumpDelay: 4
@@ -78,7 +78,7 @@ MonoBehaviour:
     jumpDelay: 8
     landingDelay: 7
     _groundCollisionMass:
-      _serializedValue: 8589934592
+      _serializedValue: 2147483648
   headLook:
     enabled: 0
     segments:
