@@ -48,7 +48,7 @@ MonoBehaviour:
     supportDecals: 1
     supportDecalLayers: 0
     supportSurfaceGradient: 1
-    decalNormalBufferHP: 0
+    decalNormalBufferHP: 1
     msaaSampleCount: 1
     supportMotionVectors: 1
     supportRuntimeAOVAPI: 0
@@ -128,13 +128,13 @@ MonoBehaviour:
       drawDistance: 1000
       atlasWidth: 4096
       atlasHeight: 4096
-      perChannelMask: 0
+      perChannelMask: 1
     postProcessSettings:
       m_LutSize: 32
       lutFormat: 48
       bufferFormat: 74
     dynamicResolutionSettings:
-      enabled: 0
+      enabled: 1
       useMipBias: 0
       enableDLSS: 0
       DLSSPerfQualitySetting: 0
