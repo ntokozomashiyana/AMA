@@ -27,22 +27,22 @@ MonoBehaviour:
   lifePoints: 1000
   maxGaugePoints: 1000
   characterPrefabStorage: 0
-  characterPrefab: {fileID: 1127499414504257467, guid: af1e1d1ec31ba2b40a8b388322752832,
+  characterPrefab: {fileID: 4389512840600278581, guid: 5d501972a05b92b49a034ac4799b162e,
     type: 3}
   prefabResourcePath: 
   alternativeCostumes: []
   initialPosition:
     x:
-      _serializedValue: 0
+      _serializedValue: 2439472
     y:
       _serializedValue: 0
     z:
-      _serializedValue: 0
+      _serializedValue: -309375168
   initialRotation:
     x:
       _serializedValue: 0
     y:
-      _serializedValue: 0
+      _serializedValue: 3008
     z:
       _serializedValue: 0
     w:
@@ -102,7 +102,7 @@ MonoBehaviour:
   _blendingTime:
     _serializedValue: 429496736
   animationType: 1
-  avatar: {fileID: 9000000, guid: a7900c5c972fc904a8f91c9a3339ea46, type: 3}
+  avatar: {fileID: 9000000, guid: e3cc1ab8ee90e8445a9368cf7fa79d86, type: 3}
   useScaleFlip: 0
   applyRootMotion: 0
   animationFlow: 0

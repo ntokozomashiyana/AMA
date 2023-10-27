@@ -27,7 +27,7 @@ MonoBehaviour:
   lifePoints: 1000
   maxGaugePoints: 1000
   characterPrefabStorage: 0
-  characterPrefab: {fileID: 690544357840451786, guid: c869dd067b3ac2843a690cec76b2d6c5,
+  characterPrefab: {fileID: 2784035237574922318, guid: 34dd5f6b9de8e9644809980495d5ebea,
     type: 3}
   prefabResourcePath: 
   alternativeCostumes: []
