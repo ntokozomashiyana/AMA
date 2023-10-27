@@ -33,25 +33,25 @@ MonoBehaviour:
   alternativeCostumes: []
   initialPosition:
     x:
-      _serializedValue: 2439472
+      _serializedValue: 0
     y:
       _serializedValue: 0
     z:
-      _serializedValue: -309375200
+      _serializedValue: 0
   initialRotation:
     x:
       _serializedValue: 0
     y:
-      _serializedValue: 3008
+      _serializedValue: 0
     z:
       _serializedValue: 0
     w:
       _serializedValue: 4294967296
   physics:
     _moveForwardSpeed:
-      _serializedValue: 17179869184
+      _serializedValue: 8589934592
     _moveBackSpeed:
-      _serializedValue: 17179869184
+      _serializedValue: 8589934592
     _moveSidewaysSpeed:
       _serializedValue: 17179869184
     highMovingFriction: 1
