@@ -169,7 +169,11 @@ Transform:
   - {fileID: 1552026329085593698}
   - {fileID: 4754352254637178850}
   m_Father: {fileID: 0}
+<<<<<<< Updated upstream
   m_RootOrder: 0
+=======
+  m_RootOrder: 2
+>>>>>>> Stashed changes
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &5926079888518952508
 Animator:
@@ -1451,7 +1455,7 @@ MonoBehaviour:
       x:
         _serializedValue: 0
       y:
-        _serializedValue: 0
+        _serializedValue: 601295424
       z:
         _serializedValue: 0
   activeHurtBoxes: []
