@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Config_3D_Fighter_T1
   m_EditorClassIdentifier: 
   version: 2
-  player1Character: {fileID: 11400000, guid: 1b9754a16bb5edf4ba2b9f921b61c693, type: 2}
-  player2Character: {fileID: 11400000, guid: 55e511f23800faf4f899d346e37451a1, type: 2}
+  player1Character: {fileID: 0}
+  player2Character: {fileID: 0}
   player1Team:
   - {fileID: 11400000, guid: 56b90e0e72e9aa5408f34fa9179b76ad, type: 2}
   - {fileID: 11400000, guid: 56b90e0e72e9aa5408f34fa9179b76ad, type: 2}
@@ -388,9 +388,9 @@ MonoBehaviour:
       _serializedValue: 64424509440
     sound: {fileID: 8300000, guid: 5b3bea24171c6534b81c07a298e51803, type: 3}
   comboOptions:
-    comboDisplayMode: 0
-    hitStunDeterioration: 2
-    damageDeterioration: 2
+    comboDisplayMode: 1
+    hitStunDeterioration: 3
+    damageDeterioration: 3
     airJuggleDeterioration: 2
     _minHitStun: 1
     _minDamage:
@@ -472,12 +472,12 @@ MonoBehaviour:
   knockDownOptions:
     air:
       _knockedOutTime:
-        _serializedValue: 2147483648
+        _serializedValue: 6012954112
       _standUpTime:
-        _serializedValue: 1288490240
+        _serializedValue: 2147483648
       hideHitBoxesOnFrame: 10
       hideHitBoxes: 1
-      editorToggle: 1
+      editorToggle: 0
       hasQuickStand: 0
       _predefinedPushForce:
         x:
@@ -569,7 +569,7 @@ MonoBehaviour:
         _serializedValue: 4294967296
       hideHitBoxesOnFrame: 10
       hideHitBoxes: 1
-      editorToggle: 1
+      editorToggle: 0
       hasQuickStand: 0
       _predefinedPushForce:
         x:
@@ -592,7 +592,7 @@ MonoBehaviour:
         _serializedValue: 1288490240
       hideHitBoxesOnFrame: 10
       hideHitBoxes: 1
-      editorToggle: 1
+      editorToggle: 0
       hasQuickStand: 0
       _predefinedPushForce:
         x:
@@ -839,7 +839,7 @@ MonoBehaviour:
     inputViewerIcon6: {fileID: 2800000, guid: 90523496d8897124e989ad256f109d27, type: 3}
   - inputType: 1
     inputButtonName: P1KeyboardVertical
-    engineRelatedButton: 2
+    engineRelatedButton: 3
     joystickAxisName: P1JoystickVertical
     cInputPositiveKeyName: P1Up
     cInputPositiveDefaultKey: W
@@ -968,7 +968,7 @@ MonoBehaviour:
   player2_Inputs:
   - inputType: 0
     inputButtonName: P2KeyboardHorizontal
-    engineRelatedButton: 1
+    engineRelatedButton: 0
     joystickAxisName: P2JoystickHorizontal
     cInputPositiveKeyName: P2Right
     cInputPositiveDefaultKey: RightArrow
@@ -984,7 +984,7 @@ MonoBehaviour:
     inputViewerIcon6: {fileID: 2800000, guid: 90523496d8897124e989ad256f109d27, type: 3}
   - inputType: 1
     inputButtonName: P2KeyboardVertical
-    engineRelatedButton: 2
+    engineRelatedButton: 3
     joystickAxisName: P2JoystickVertical
     cInputPositiveKeyName: P2Up
     cInputPositiveDefaultKey: UpArrow

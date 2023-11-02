@@ -15,19 +15,19 @@ MonoBehaviour:
   gameplayType: 1
   animMap:
     animationMaps: []
-    clip: {fileID: 7400000, guid: c8f90bd351e27a04b9892fa943a3b230, type: 2}
+    clip: {fileID: -1512638647822578034, guid: db589ff620ab43649977122f8352f3aa, type: 3}
     customHitBoxDefinition: {fileID: 0}
     length:
-      _serializedValue: 3865470720
+      _serializedValue: 9305762816
     bakeSpeed: 0
     hitBoxDefinitionType: 0
   _animationSpeed:
     _serializedValue: 6442450944
   wrapMode: 0
-  characterPrefab: {fileID: 5407684261241743878, guid: 238cc34e54d40f54c8a29a188d8586ff,
+  characterPrefab: {fileID: 2784035237574922318, guid: 34dd5f6b9de8e9644809980495d5ebea,
     type: 3}
-  moveName: Heavy Punch
-  description: Andani's Heavy Punch
+  moveName: Heavy Kick
+  description: Andani's Heavy Kick
   fps: 60
   ignoreGravity: 0
   ignoreFriction: 0
@@ -46,10 +46,10 @@ MonoBehaviour:
   speedKeyFrameToggle: 0
   fixedSpeed: 1
   animSpeedKeyFrame: []
-  totalFrames: 36
-  startUpFrames: 19
-  activeFrames: 12
-  recoveryFrames: 5
+  totalFrames: 86
+  startUpFrames: 22
+  activeFrames: 15
+  recoveryFrames: 49
   applyRootMotion: 0
   lockXMotion: 0
   lockYMotion: 0
@@ -75,7 +75,7 @@ MonoBehaviour:
     onPressExecution: 1
     buttonSequence: 
     buttonExecution: 06000000
-    editorToggle: 0
+    editorToggle: 1
     buttonSequenceToggle: 0
     buttonExecutionToggle: 0
   altInputs:
@@ -99,12 +99,26 @@ MonoBehaviour:
     basicMoveLimitation: 
     possibleMoveStates: []
     basicMovesToggle: 0
-    statesToggle: 0
+    statesToggle: 1
   selfConditions:
     basicMoveLimitation: 
-    possibleMoveStates: []
-    basicMovesToggle: 0
-    statesToggle: 0
+    possibleMoveStates:
+    - possibleState: 0
+      jumpArc: 0
+      jumpArcBegins: 0
+      jumpArcEnds: 100
+      opponentDistance: 0
+      proximityRangeBegins: 0
+      proximityRangeEnds: 100
+      movingForward: 1
+      movingBack: 1
+      standBy: 1
+      blocking: 0
+      blockStunned: 0
+      stunned: 0
+      resetStunValue: 0
+    basicMovesToggle: 1
+    statesToggle: 1
   moveClassification:
     attackType: 1
     hitType: 4
@@ -135,8 +149,8 @@ MonoBehaviour:
   stanceChanges: []
   cameraMovements: []
   hits:
-  - activeFramesBegin: 19
-    activeFramesEnds: 30
+  - activeFramesBegin: 22
+    activeFramesEnds: 36
     hitConfirmType: 0
     throwMove: {fileID: 0}
     techMove: {fileID: 0}
@@ -159,8 +173,8 @@ MonoBehaviour:
       basicMovesToggle: 0
       statesToggle: 0
     downHit: 0
-    resetPreviousHitStun: 0
-    resetCrumples: 0
+    resetPreviousHitStun: 1
+    resetCrumples: 1
     customStunValues: 0
     overrideHitEffects: 0
     hitEffects:
@@ -222,9 +236,9 @@ MonoBehaviour:
     hitStrength: 2
     hitStunType: 1
     _hitStunOnHit:
-      _serializedValue: 55834574848
+      _serializedValue: 386547056640
     _hitStunOnBlock:
-      _serializedValue: 0
+      _serializedValue: 128849018880
     frameAdvantageOnHit: 0
     frameAdvantageOnBlock: 0
     damageScaling: 0
@@ -232,11 +246,11 @@ MonoBehaviour:
     _damageOnHit:
       _serializedValue: 34359738368
     _minDamageOnHit:
-      _serializedValue: 21474836480
+      _serializedValue: 17179869184
     _damageOnBlock:
       _serializedValue: 4294967296
     doesntKill: 0
-    hitType: 4
+    hitType: 2
     resetPreviousHorizontalPush: 0
     resetPreviousVerticalPush: 0
     resetPreviousSidewaysPush: 0
@@ -345,8 +359,8 @@ MonoBehaviour:
         z:
           _serializedValue: 0
     hitToggle: 1
-    damageOptionsToggle: 0
-    hitStunOptionsToggle: 0
+    damageOptionsToggle: 1
+    hitStunOptionsToggle: 1
     forceOptionsToggle: 0
     opponentForceToggle: 0
     selfForceToggle: 0
@@ -354,11 +368,11 @@ MonoBehaviour:
     overrideEventsToggle: 0
     hitConditionsToggle: 0
     pullInToggle: 0
-    hurtBoxesToggle: 0
+    hurtBoxesToggle: 1
     wallBounceToggle: 0
     groundBounceToggle: 0
     hurtBoxes:
-    - bodyPart: 9
+    - bodyPart: 15
       followXBounds: 0
       followYBounds: 0
       hitBoxDefinitionIndex: 0
@@ -417,7 +431,7 @@ MonoBehaviour:
   blockableArea:
     enabled: 1
     activeFramesBegin: 0
-    activeFramesEnds: 22
+    activeFramesEnds: 72
     bodyPart: 2
     hitBoxDefinitionIndex: 0
     shape: 0
@@ -471,7 +485,7 @@ MonoBehaviour:
     followXBounds: 0
     followYBounds: 0
     _radius:
-      _serializedValue: 2147483648
+      _serializedValue: 21474836480
     _offSet:
       x:
         _serializedValue: 0
@@ -495,11 +509,11 @@ MonoBehaviour:
         _serializedValue: 0
     position:
       x:
-        _serializedValue: -2247881216
+        _serializedValue: 0
       y:
-        _serializedValue: 14724775936
+        _serializedValue: 0
       z:
-        _serializedValue: 288670464
+        _serializedValue: 0
   lockOnTargets: []
   switchCharacterOptions: []
   invincibleBodyParts: []
