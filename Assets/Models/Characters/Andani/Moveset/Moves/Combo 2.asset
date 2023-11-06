@@ -18,11 +18,11 @@ MonoBehaviour:
     clip: {fileID: 5756165063445659274, guid: d9a6cc6f7878da548b02735002e73b50, type: 3}
     customHitBoxDefinition: {fileID: 0}
     length:
-      _serializedValue: 9305762816
+      _serializedValue: 5010795520
     bakeSpeed: 0
     hitBoxDefinitionType: 0
   _animationSpeed:
-    _serializedValue: 3221225472
+    _serializedValue: 4294967296
   wrapMode: 0
   characterPrefab: {fileID: 2784035237574922318, guid: 34dd5f6b9de8e9644809980495d5ebea,
     type: 3}
@@ -46,10 +46,10 @@ MonoBehaviour:
   speedKeyFrameToggle: 0
   fixedSpeed: 1
   animSpeedKeyFrame: []
-  totalFrames: 173
+  totalFrames: 70
   startUpFrames: 10
-  activeFrames: 162
-  recoveryFrames: 1
+  activeFrames: 163
+  recoveryFrames: 0
   applyRootMotion: 0
   lockXMotion: 0
   lockYMotion: 0
@@ -717,8 +717,8 @@ MonoBehaviour:
           _serializedValue: 0
       shape: 0
       type: 0
-  - activeFramesBegin: 11
-    activeFramesEnds: 171
+  - activeFramesBegin: 19
+    activeFramesEnds: 172
     hitConfirmType: 0
     throwMove: {fileID: 0}
     techMove: {fileID: 0}

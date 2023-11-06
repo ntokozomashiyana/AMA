@@ -48,7 +48,7 @@ MonoBehaviour:
   animSpeedKeyFrame: []
   totalFrames: 141
   startUpFrames: 13
-  activeFrames: 107
+  activeFrames: 128
   recoveryFrames: 0
   applyRootMotion: 0
   lockXMotion: 0
@@ -997,7 +997,7 @@ MonoBehaviour:
       shape: 0
       type: 0
   - activeFramesBegin: 64
-    activeFramesEnds: 104
+    activeFramesEnds: 77
     hitConfirmType: 0
     throwMove: {fileID: 0}
     techMove: {fileID: 0}
@@ -1205,7 +1205,7 @@ MonoBehaviour:
           _serializedValue: 0
         z:
           _serializedValue: 0
-    hitToggle: 1
+    hitToggle: 0
     damageOptionsToggle: 1
     hitStunOptionsToggle: 1
     forceOptionsToggle: 0
@@ -1275,8 +1275,8 @@ MonoBehaviour:
           _serializedValue: 0
       shape: 0
       type: 0
-  - activeFramesBegin: 77
-    activeFramesEnds: 119
+  - activeFramesBegin: 79
+    activeFramesEnds: 140
     hitConfirmType: 0
     throwMove: {fileID: 0}
     techMove: {fileID: 0}
