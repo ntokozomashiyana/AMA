@@ -48,8 +48,8 @@ MonoBehaviour:
   animSpeedKeyFrame: []
   totalFrames: 173
   startUpFrames: 10
-  activeFrames: 50
-  recoveryFrames: 70
+  activeFrames: 162
+  recoveryFrames: 1
   applyRootMotion: 0
   lockXMotion: 0
   lockYMotion: 0
@@ -717,8 +717,8 @@ MonoBehaviour:
           _serializedValue: 0
       shape: 0
       type: 0
-  - activeFramesBegin: 45
-    activeFramesEnds: 59
+  - activeFramesBegin: 11
+    activeFramesEnds: 171
     hitConfirmType: 0
     throwMove: {fileID: 0}
     techMove: {fileID: 0}
