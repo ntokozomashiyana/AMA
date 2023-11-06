@@ -22,7 +22,7 @@ MonoBehaviour:
     bakeSpeed: 0
     hitBoxDefinitionType: 0
   _animationSpeed:
-    _serializedValue: 4294967296
+    _serializedValue: 3865470464
   wrapMode: 0
   characterPrefab: {fileID: 2784035237574922318, guid: 34dd5f6b9de8e9644809980495d5ebea,
     type: 3}
