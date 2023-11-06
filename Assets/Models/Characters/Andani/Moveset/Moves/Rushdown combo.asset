@@ -48,8 +48,8 @@ MonoBehaviour:
   animSpeedKeyFrame: []
   totalFrames: 120
   startUpFrames: 13
-  activeFrames: 97
-  recoveryFrames: 10
+  activeFrames: 107
+  recoveryFrames: 0
   applyRootMotion: 0
   lockXMotion: 0
   lockYMotion: 0
@@ -439,7 +439,7 @@ MonoBehaviour:
       shape: 0
       type: 0
   - activeFramesBegin: 21
-    activeFramesEnds: 30
+    activeFramesEnds: 37
     hitConfirmType: 0
     throwMove: {fileID: 0}
     techMove: {fileID: 0}
@@ -718,7 +718,7 @@ MonoBehaviour:
       shape: 0
       type: 0
   - activeFramesBegin: 39
-    activeFramesEnds: 44
+    activeFramesEnds: 63
     hitConfirmType: 0
     throwMove: {fileID: 0}
     techMove: {fileID: 0}
@@ -996,8 +996,8 @@ MonoBehaviour:
           _serializedValue: 0
       shape: 0
       type: 0
-  - activeFramesBegin: 69
-    activeFramesEnds: 80
+  - activeFramesBegin: 64
+    activeFramesEnds: 104
     hitConfirmType: 0
     throwMove: {fileID: 0}
     techMove: {fileID: 0}
@@ -1275,8 +1275,8 @@ MonoBehaviour:
           _serializedValue: 0
       shape: 0
       type: 0
-  - activeFramesBegin: 99
-    activeFramesEnds: 109
+  - activeFramesBegin: 77
+    activeFramesEnds: 119
     hitConfirmType: 0
     throwMove: {fileID: 0}
     techMove: {fileID: 0}
@@ -1484,7 +1484,7 @@ MonoBehaviour:
           _serializedValue: 0
         z:
           _serializedValue: 0
-    hitToggle: 0
+    hitToggle: 1
     damageOptionsToggle: 1
     hitStunOptionsToggle: 1
     forceOptionsToggle: 0
