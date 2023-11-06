@@ -66,18 +66,18 @@ MonoBehaviour:
     chargeMove: 0
     _chargeTiming:
       _serializedValue: 3006477107
-    allowInputLeniency: 0
+    allowInputLeniency: 1
     allowNegativeEdge: 0
     forceAxisPrecision: 0
     leniencyBuffer: 3
     onReleaseExecution: 0
     requireButtonPress: 1
     onPressExecution: 1
-    buttonSequence: 
-    buttonExecution: 04000000
+    buttonSequence: 01000000
+    buttonExecution: 05000000
     editorToggle: 1
-    buttonSequenceToggle: 0
-    buttonExecutionToggle: 0
+    buttonSequenceToggle: 1
+    buttonExecutionToggle: 1
   altInputs:
     chargeMove: 0
     _chargeTiming:
@@ -232,7 +232,7 @@ MonoBehaviour:
     hitStrength: 1
     hitStunType: 1
     _hitStunOnHit:
-      _serializedValue: 395136991232
+      _serializedValue: 85899345920
     _hitStunOnBlock:
       _serializedValue: 68719476736
     frameAdvantageOnHit: 92
