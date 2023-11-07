@@ -109,7 +109,7 @@ MonoBehaviour:
   useAnimationMaps: 0
   normalizeAnimationFrames: 1
   stanceResourcePath:
-  - _3DFighter/MoveSets/Lab_Rat
+  - _3DFighter/MoveSets/Gael
   moves: []
   aiInstructionsSet:
   - aiInfo: {fileID: 11400000, guid: 5c7f03bfedfeaca42a91e28c053f9ce0, type: 2}

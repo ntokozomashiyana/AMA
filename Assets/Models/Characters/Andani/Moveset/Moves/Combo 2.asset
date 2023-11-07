@@ -48,7 +48,7 @@ MonoBehaviour:
   animSpeedKeyFrame: []
   totalFrames: 70
   startUpFrames: 10
-  activeFrames: 163
+  activeFrames: 60
   recoveryFrames: 0
   applyRootMotion: 0
   lockXMotion: 0
@@ -102,9 +102,23 @@ MonoBehaviour:
     statesToggle: 0
   selfConditions:
     basicMoveLimitation: 
-    possibleMoveStates: []
+    possibleMoveStates:
+    - possibleState: 0
+      jumpArc: 0
+      jumpArcBegins: 0
+      jumpArcEnds: 100
+      opponentDistance: 0
+      proximityRangeBegins: 0
+      proximityRangeEnds: 100
+      movingForward: 1
+      movingBack: 1
+      standBy: 1
+      blocking: 0
+      blockStunned: 0
+      stunned: 0
+      resetStunValue: 0
     basicMovesToggle: 0
-    statesToggle: 0
+    statesToggle: 1
   moveClassification:
     attackType: 1
     hitType: 0
@@ -718,7 +732,7 @@ MonoBehaviour:
       shape: 0
       type: 0
   - activeFramesBegin: 19
-    activeFramesEnds: 172
+    activeFramesEnds: 69
     hitConfirmType: 0
     throwMove: {fileID: 0}
     techMove: {fileID: 0}

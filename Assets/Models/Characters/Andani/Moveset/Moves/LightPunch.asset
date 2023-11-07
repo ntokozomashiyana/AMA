@@ -49,7 +49,7 @@ MonoBehaviour:
   totalFrames: 48
   startUpFrames: 5
   activeFrames: 23
-  recoveryFrames: 37
+  recoveryFrames: 20
   applyRootMotion: 0
   lockXMotion: 0
   lockYMotion: 0
@@ -102,9 +102,23 @@ MonoBehaviour:
     statesToggle: 0
   selfConditions:
     basicMoveLimitation: 
-    possibleMoveStates: []
+    possibleMoveStates:
+    - possibleState: 0
+      jumpArc: 0
+      jumpArcBegins: 0
+      jumpArcEnds: 100
+      opponentDistance: 0
+      proximityRangeBegins: 0
+      proximityRangeEnds: 100
+      movingForward: 1
+      movingBack: 1
+      standBy: 1
+      blocking: 0
+      blockStunned: 0
+      stunned: 0
+      resetStunValue: 0
     basicMovesToggle: 0
-    statesToggle: 0
+    statesToggle: 1
   moveClassification:
     attackType: 1
     hitType: 0

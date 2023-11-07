@@ -99,10 +99,24 @@ MonoBehaviour:
     basicMoveLimitation: 
     possibleMoveStates: []
     basicMovesToggle: 0
-    statesToggle: 0
+    statesToggle: 1
   selfConditions:
     basicMoveLimitation: 
-    possibleMoveStates: []
+    possibleMoveStates:
+    - possibleState: 0
+      jumpArc: 0
+      jumpArcBegins: 0
+      jumpArcEnds: 100
+      opponentDistance: 0
+      proximityRangeBegins: 0
+      proximityRangeEnds: 100
+      movingForward: 1
+      movingBack: 1
+      standBy: 1
+      blocking: 0
+      blockStunned: 0
+      stunned: 0
+      resetStunValue: 0
     basicMovesToggle: 0
     statesToggle: 0
   moveClassification:
@@ -368,7 +382,7 @@ MonoBehaviour:
           _serializedValue: 0
         z:
           _serializedValue: 0
-    hitToggle: 0
+    hitToggle: 1
     damageOptionsToggle: 0
     hitStunOptionsToggle: 0
     forceOptionsToggle: 0
