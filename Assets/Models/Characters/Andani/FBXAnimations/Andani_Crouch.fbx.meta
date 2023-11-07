@@ -36,8 +36,8 @@ ModelImporter:
       name: Andani_Crouch
       takeName: Andani_Crouch
       internalID: -3973819742429037279
-      firstFrame: 70
-      lastFrame: 138
+      firstFrame: 25
+      lastFrame: 165
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
