@@ -47,9 +47,9 @@ MonoBehaviour:
   fixedSpeed: 1
   animSpeedKeyFrame: []
   totalFrames: 60
-  startUpFrames: 22
-  activeFrames: 15
-  recoveryFrames: 49
+  startUpFrames: 30
+  activeFrames: 16
+  recoveryFrames: 14
   applyRootMotion: 0
   lockXMotion: 0
   lockYMotion: 0
@@ -121,9 +121,9 @@ MonoBehaviour:
     statesToggle: 1
   moveClassification:
     attackType: 1
-    hitType: 4
+    hitType: 0
     startupSpeed: 1
-    recoverySpeed: 3
+    recoverySpeed: 1
     hitConfirmType: 0
     preferableDistance: 2
     gaugeUsage: 1
@@ -149,8 +149,8 @@ MonoBehaviour:
   stanceChanges: []
   cameraMovements: []
   hits:
-  - activeFramesBegin: 22
-    activeFramesEnds: 36
+  - activeFramesBegin: 30
+    activeFramesEnds: 45
     hitConfirmType: 0
     throwMove: {fileID: 0}
     techMove: {fileID: 0}
@@ -233,7 +233,7 @@ MonoBehaviour:
     instantAirRecovery: 0
     overrideHitAnimation: 0
     newHitAnimation: 27
-    hitStrength: 2
+    hitStrength: 1
     hitStunType: 1
     _hitStunOnHit:
       _serializedValue: 386547056640
@@ -250,7 +250,7 @@ MonoBehaviour:
     _damageOnBlock:
       _serializedValue: 4294967296
     doesntKill: 0
-    hitType: 2
+    hitType: 4
     resetPreviousHorizontalPush: 0
     resetPreviousVerticalPush: 0
     resetPreviousSidewaysPush: 0
@@ -384,7 +384,7 @@ MonoBehaviour:
         z:
           _serializedValue: 0
       _radius:
-        _serializedValue: 2147483648
+        _serializedValue: 472446400
       _rect:
         _x:
           _serializedValue: 0
@@ -431,7 +431,7 @@ MonoBehaviour:
   blockableArea:
     enabled: 1
     activeFramesBegin: 0
-    activeFramesEnds: 72
+    activeFramesEnds: 46
     bodyPart: 2
     hitBoxDefinitionIndex: 0
     shape: 0
@@ -509,11 +509,11 @@ MonoBehaviour:
         _serializedValue: 0
     position:
       x:
-        _serializedValue: 0
+        _serializedValue: -81726272
       y:
-        _serializedValue: 0
+        _serializedValue: 4367403520
       z:
-        _serializedValue: 0
+        _serializedValue: 108117864
   lockOnTargets: []
   switchCharacterOptions: []
   invincibleBodyParts: []

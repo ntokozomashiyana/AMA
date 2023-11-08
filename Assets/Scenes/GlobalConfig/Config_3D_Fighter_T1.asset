@@ -219,7 +219,7 @@ MonoBehaviour:
     draw: Draw
     defaultSelection: 1
   deploymentOptions:
-    deploymentType: 2
+    deploymentType: 1
     activeCharacters:
     - {fileID: 11400000, guid: 1b9754a16bb5edf4ba2b9f921b61c693, type: 2}
     - {fileID: 11400000, guid: 55e511f23800faf4f899d346e37451a1, type: 2}
@@ -823,7 +823,7 @@ MonoBehaviour:
     inputViewerIcon6: {fileID: 2800000, guid: 90523496d8897124e989ad256f109d27, type: 3}
   - inputType: 1
     inputButtonName: P1KeyboardVertical
-    engineRelatedButton: 2
+    engineRelatedButton: 3
     joystickAxisName: P1JoystickVertical
     cInputPositiveKeyName: P1Up
     cInputPositiveDefaultKey: W
@@ -952,7 +952,7 @@ MonoBehaviour:
   player2_Inputs:
   - inputType: 0
     inputButtonName: P2KeyboardHorizontal
-    engineRelatedButton: 1
+    engineRelatedButton: 0
     joystickAxisName: P2JoystickHorizontal
     cInputPositiveKeyName: P2Right
     cInputPositiveDefaultKey: RightArrow
@@ -1308,7 +1308,7 @@ MonoBehaviour:
     synchronizationAction: 2
   music: 0
   musicVolume: 1
-  soundfx: 1
+  soundfx: 0
   soundfxVolume: 1
   colorStateOne: {r: 1, g: 0, b: 0, a: 1}
   colorIsHit: {r: 1, g: 0, b: 1, a: 1}

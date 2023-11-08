@@ -122,7 +122,7 @@ MonoBehaviour:
   moveClassification:
     attackType: 1
     hitType: 0
-    startupSpeed: 1
+    startupSpeed: 4
     recoverySpeed: 1
     hitConfirmType: 0
     preferableDistance: 2
@@ -148,15 +148,15 @@ MonoBehaviour:
     _gaugeGainOnMiss:
       _serializedValue: 0
     _gaugeGainOnHit:
-      _serializedValue: 0
+      _serializedValue: 8589934592
     _gaugeGainOnBlock:
-      _serializedValue: 0
+      _serializedValue: 4294967296
     _opGaugeGainOnBlock:
       _serializedValue: 0
     _opGaugeGainOnParry:
-      _serializedValue: 0
+      _serializedValue: 8589934592
     _opGaugeGainOnHit:
-      _serializedValue: 0
+      _serializedValue: 4294967296
     DCMove: {fileID: 0}
     DCStance: 0
     editorToggle: 0
@@ -260,9 +260,9 @@ MonoBehaviour:
     hitStrength: 0
     hitStunType: 1
     _hitStunOnHit:
-      _serializedValue: 429496729600
+      _serializedValue: 34359738368
     _hitStunOnBlock:
-      _serializedValue: 42949672960
+      _serializedValue: 34359738368
     frameAdvantageOnHit: 0
     frameAdvantageOnBlock: 0
     damageScaling: 0
