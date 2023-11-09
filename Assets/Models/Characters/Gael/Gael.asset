@@ -112,5 +112,5 @@ MonoBehaviour:
   - _3DFighter/MoveSets/Gael
   moves: []
   aiInstructionsSet:
-  - aiInfo: {fileID: 11400000, guid: 5c7f03bfedfeaca42a91e28c053f9ce0, type: 2}
-    behavior: 3
+  - aiInfo: {fileID: 11400000, guid: 50d4630698994bd45b6f19bf649b3a90, type: 2}
+    behavior: 4
