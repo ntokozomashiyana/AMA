@@ -49,7 +49,7 @@ Material:
   m_LightmapFlags: 1
   m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 3412
+  m_CustomRenderQueue: 2767
   stringTagMap:
     MotionVector: User
     RenderType: Transparent
@@ -552,7 +552,7 @@ Material:
     - _AlphaRemapMin1: 0
     - _AlphaRemapMin2: 0
     - _AlphaRemapMin3: 0
-    - _AlphaSrcBlend: 0
+    - _AlphaSrcBlend: 1
     - _Anisotropy: 0
     - _AxF_BRDFType: 0
     - _BASE_COLOR_WEIGHT: 1
@@ -636,7 +636,7 @@ Material:
     - _EnergyConservingSpecularColor: 1
     - _Flags: 0
     - _FlagsB: 8388608
-    - _Glossiness: 0
+    - _Glossiness: 0.01
     - _HeightAmplitude: -0
     - _HeightAmplitude0: 0.02
     - _HeightAmplitude1: 0.02
@@ -761,7 +761,7 @@ Material:
     - _ReceivesSSR: 1
     - _ReceivesSSRTransparent: 0
     - _RefractionModel: 0
-    - _RenderQueueType: 5
+    - _RenderQueueType: 3
     - _RequireSplitLighting: 0
     - _SPECULAR_ANISOTROPY: 0
     - _SPECULAR_IOR: 1.52
@@ -845,7 +845,7 @@ Material:
     - _TransparentCullMode: 2
     - _TransparentDepthPostpassEnable: 0
     - _TransparentDepthPrepassEnable: 0
-    - _TransparentSortPriority: 12
+    - _TransparentSortPriority: 17
     - _TransparentWritingMotionVec: 0
     - _TransparentZWrite: 0
     - _UVBase: 1
