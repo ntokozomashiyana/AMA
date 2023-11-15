@@ -46,7 +46,7 @@ MonoBehaviour:
   speedKeyFrameToggle: 0
   fixedSpeed: 1
   animSpeedKeyFrame: []
-  totalFrames: 70
+  totalFrames: 120
   startUpFrames: 33
   activeFrames: 18
   recoveryFrames: 19
@@ -589,11 +589,11 @@ MonoBehaviour:
         _serializedValue: 0
     position:
       x:
-        _serializedValue: -601883904
+        _serializedValue: -587027840
       y:
-        _serializedValue: 4974268416
+        _serializedValue: 4954401280
       z:
-        _serializedValue: -16351548
+        _serializedValue: 193832592
   lockOnTargets: []
   switchCharacterOptions: []
   invincibleBodyParts: []

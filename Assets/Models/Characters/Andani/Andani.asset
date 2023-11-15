@@ -27,7 +27,7 @@ MonoBehaviour:
   lifePoints: 1000
   maxGaugePoints: 1000
   characterPrefabStorage: 0
-  characterPrefab: {fileID: 2784035237574922318, guid: 34dd5f6b9de8e9644809980495d5ebea,
+  characterPrefab: {fileID: 4890412392685150809, guid: 8476738a3482c7947923ab7dc523b54a,
     type: 3}
   prefabResourcePath: 
   alternativeCostumes: []
@@ -63,7 +63,7 @@ MonoBehaviour:
     canJump: 1
     pressureSensitiveJump: 0
     _jumpForce:
-      _serializedValue: 64424509440
+      _serializedValue: 107374182400
     _minJumpForce:
       _serializedValue: 128849018880
     minJumpDelay: 4
@@ -74,7 +74,7 @@ MonoBehaviour:
     cumulativeForce: 1
     multiJumps: 1
     _weight:
-      _serializedValue: 751619276800
+      _serializedValue: 429496729600
     jumpDelay: 8
     landingDelay: 7
     _groundCollisionMass:
@@ -110,7 +110,7 @@ MonoBehaviour:
   _blendingTime:
     _serializedValue: 429496736
   animationType: 1
-  avatar: {fileID: 9000000, guid: ebcad95546eebd94cb2fef7776d1217e, type: 3}
+  avatar: {fileID: 9000000, guid: 8e8f7dbaa08c70d46bb42248e300f88b, type: 3}
   useScaleFlip: 0
   applyRootMotion: 0
   animationFlow: 0
