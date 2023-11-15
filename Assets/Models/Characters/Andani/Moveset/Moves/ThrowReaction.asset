@@ -14129,12 +14129,12 @@ MonoBehaviour:
     clip: {fileID: -346976372917795413, guid: cc65aba95a0ba68449789f68996e6d44, type: 3}
     customHitBoxDefinition: {fileID: 0}
     length:
-      _serializedValue: 5010795520
+      _serializedValue: 3364391424
     bakeSpeed: 1
     hitBoxDefinitionType: 0
   _animationSpeed:
     _serializedValue: 4294967296
-  wrapMode: 1
+  wrapMode: 0
   characterPrefab: {fileID: 1272366937168992, guid: fd64814b02364cc4c93cfc8c9717e635,
     type: 3}
   moveName: Throw Reaction
@@ -14144,10 +14144,10 @@ MonoBehaviour:
   ignoreFriction: 0
   cancelMoveWhenLanding: 0
   landingMoveLink: {fileID: 0}
-  forceMirrorLeft: 1
-  forceMirrorRight: 1
-  invertRotationLeft: 0
-  invertRotationRight: 0
+  forceMirrorLeft: 0
+  forceMirrorRight: 0
+  invertRotationLeft: 1
+  invertRotationRight: 1
   autoCorrectRotation: 1
   allowSideSwitch: 0
   frameWindowRotation: 3
@@ -14161,7 +14161,7 @@ MonoBehaviour:
   startUpFrames: 7
   activeFrames: 3
   recoveryFrames: 5
-  applyRootMotion: 1
+  applyRootMotion: 0
   lockXMotion: 0
   lockYMotion: 0
   lockZMotion: 1
@@ -14356,12 +14356,7 @@ MonoBehaviour:
         _serializedValue: 0
       z:
         _serializedValue: 0
-  lockOnTargets:
-  - activeFramesBegin: 53
-    activeFramesEnds: 69
-    targetSwitchType: 0
-    rotationSpeed:
-      _serializedValue: 0
+  lockOnTargets: []
   switchCharacterOptions: []
   invincibleBodyParts: []
   stateOverride: []

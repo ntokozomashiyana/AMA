@@ -14953,7 +14953,7 @@ MonoBehaviour:
     clip: {fileID: -954898698448695018, guid: 202c0a1323433564290efd293467455e, type: 3}
     customHitBoxDefinition: {fileID: 0}
     length:
-      _serializedValue: 3364391424
+      _serializedValue: 5010795520
     bakeSpeed: 1
     hitBoxDefinitionType: 0
   _animationSpeed:
@@ -14985,7 +14985,7 @@ MonoBehaviour:
   startUpFrames: 2
   activeFrames: 31
   recoveryFrames: 14
-  applyRootMotion: 1
+  applyRootMotion: 0
   lockXMotion: 0
   lockYMotion: 0
   lockZMotion: 0
@@ -15104,13 +15104,13 @@ MonoBehaviour:
   opponentOverride:
   - _position:
       x:
-        _serializedValue: 8160437760
+        _serializedValue: 0
       y:
         _serializedValue: 0
       z:
         _serializedValue: 0
     castingFrame: 0
-    blendSpeed: 20
+    blendSpeed: 100
     stun: 1
     _stunTime:
       _serializedValue: 773094113280
@@ -15778,12 +15778,7 @@ MonoBehaviour:
       z:
         _serializedValue: 0
   lockOnTargets:
-  - activeFramesBegin: 0
-    activeFramesEnds: 21
-    targetSwitchType: 0
-    rotationSpeed:
-      _serializedValue: 0
-  - activeFramesBegin: 27
+  - activeFramesBegin: 32
     activeFramesEnds: 46
     targetSwitchType: 0
     rotationSpeed:

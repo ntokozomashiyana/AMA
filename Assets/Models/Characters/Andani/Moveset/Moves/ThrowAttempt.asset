@@ -4314,7 +4314,7 @@ MonoBehaviour:
         _serializedValue: 0
   lockOnTargets:
   - activeFramesBegin: 0
-    activeFramesEnds: 6
+    activeFramesEnds: 21
     targetSwitchType: 0
     rotationSpeed:
       _serializedValue: 0
