@@ -103,7 +103,7 @@ MonoBehaviour:
   selfConditions:
     basicMoveLimitation: 
     possibleMoveStates:
-    - possibleState: 0
+    - possibleState: 2
       jumpArc: 0
       jumpArcBegins: 0
       jumpArcEnds: 100
@@ -118,7 +118,7 @@ MonoBehaviour:
       stunned: 0
       resetStunValue: 0
     basicMovesToggle: 0
-    statesToggle: 0
+    statesToggle: 1
   moveClassification:
     attackType: 0
     hitType: 0
