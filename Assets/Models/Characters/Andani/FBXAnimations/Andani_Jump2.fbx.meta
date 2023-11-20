@@ -36,7 +36,7 @@ ModelImporter:
       name: Andani_Jump2
       takeName: Andani_Jump2
       internalID: -4059497948015629504
-      firstFrame: 15
+      firstFrame: 0
       lastFrame: 67
       wrapMode: 0
       orientationOffsetY: 0
@@ -49,7 +49,7 @@ ModelImporter:
       loopBlendOrientation: 1
       loopBlendPositionY: 1
       loopBlendPositionXZ: 1
-      keepOriginalOrientation: 0
+      keepOriginalOrientation: 1
       keepOriginalPositionY: 1
       keepOriginalPositionXZ: 0
       heightFromFeet: 0
