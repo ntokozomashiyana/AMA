@@ -23,7 +23,7 @@ MonoBehaviour:
   deathSound: {fileID: 0}
   height: 140
   age: 19
-  bloodType: O-
+  bloodType: Unknown
   lifePoints: 1000
   maxGaugePoints: 1000
   characterPrefabStorage: 0
@@ -101,8 +101,8 @@ MonoBehaviour:
     zAxisMovement: 0
     disableJump: 0
     disableCrouch: 0
-    jumpButton: 3
-    crouchButton: 2
+    jumpButton: 2
+    crouchButton: 3
   hideGauges: 00000000000000000000
   _executionTiming:
     _serializedValue: 1288490240
