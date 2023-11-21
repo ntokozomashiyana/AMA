@@ -123,7 +123,7 @@ MonoBehaviour:
     attackType: 1
     hitType: 4
     startupSpeed: 1
-    recoverySpeed: 1
+    recoverySpeed: 5
     hitConfirmType: 0
     preferableDistance: 2
     gaugeUsage: 2
@@ -542,7 +542,7 @@ MonoBehaviour:
   blockableArea:
     enabled: 1
     activeFramesBegin: 1
-    activeFramesEnds: 51
+    activeFramesEnds: 31
     bodyPart: 2
     hitBoxDefinitionIndex: 0
     shape: 0
@@ -596,7 +596,7 @@ MonoBehaviour:
     followXBounds: 0
     followYBounds: 0
     _radius:
-      _serializedValue: 644245120
+      _serializedValue: 472446400
     _offSet:
       x:
         _serializedValue: 0

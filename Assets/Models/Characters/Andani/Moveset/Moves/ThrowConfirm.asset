@@ -14958,7 +14958,7 @@ MonoBehaviour:
     hitBoxDefinitionType: 0
   _animationSpeed:
     _serializedValue: 4294967296
-  wrapMode: 0
+  wrapMode: 1
   characterPrefab: {fileID: 1272366937168992, guid: fd64814b02364cc4c93cfc8c9717e635,
     type: 3}
   moveName: Throw Confirm
@@ -14977,7 +14977,7 @@ MonoBehaviour:
   frameWindowRotation: 0
   cooldown: 0
   cooldownFrames: 0
-  disableHeadLook: 0
+  disableHeadLook: 1
   speedKeyFrameToggle: 0
   fixedSpeed: 1
   animSpeedKeyFrame: []
@@ -14992,7 +14992,7 @@ MonoBehaviour:
   forceGrounded: 0
   rootMotionNode: 0
   overrideBlendingIn: 0
-  overrideBlendingOut: 1
+  overrideBlendingOut: 0
   _blendingIn:
     _serializedValue: 429496736
   _blendingOut:
@@ -15104,13 +15104,13 @@ MonoBehaviour:
   opponentOverride:
   - _position:
       x:
-        _serializedValue: 0
+        _serializedValue: -3865470464
       y:
         _serializedValue: 0
       z:
         _serializedValue: 0
-    castingFrame: 0
-    blendSpeed: 100
+    castingFrame: 7
+    blendSpeed: 4
     stun: 1
     _stunTime:
       _serializedValue: 773094113280

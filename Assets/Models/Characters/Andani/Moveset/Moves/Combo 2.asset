@@ -49,7 +49,7 @@ MonoBehaviour:
   totalFrames: 100
   startUpFrames: 10
   activeFrames: 60
-  recoveryFrames: 0
+  recoveryFrames: 30
   applyRootMotion: 0
   lockXMotion: 0
   lockYMotion: 0
@@ -1013,7 +1013,7 @@ MonoBehaviour:
   blockableArea:
     enabled: 1
     activeFramesBegin: 0
-    activeFramesEnds: 129
+    activeFramesEnds: 99
     bodyPart: 2
     hitBoxDefinitionIndex: 0
     shape: 0
@@ -1067,7 +1067,7 @@ MonoBehaviour:
     followXBounds: 0
     followYBounds: 0
     _radius:
-      _serializedValue: 17179869184
+      _serializedValue: 472446400
     _offSet:
       x:
         _serializedValue: 0

@@ -117921,7 +117921,7 @@ Transform:
   - {fileID: 5790998297431935069}
   - {fileID: 2832516813286238645}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &9052423464242237665
 Animator:
@@ -118028,7 +118028,7 @@ MonoBehaviour:
       yMax:
         _serializedValue: 0
     _radius:
-      _serializedValue: 644245120
+      _serializedValue: 472446400
     _offSet:
       x:
         _serializedValue: 0
@@ -118106,7 +118106,7 @@ MonoBehaviour:
       yMax:
         _serializedValue: 0
     _radius:
-      _serializedValue: 644245120
+      _serializedValue: 472446400
     _offSet:
       x:
         _serializedValue: 0
@@ -118184,7 +118184,7 @@ MonoBehaviour:
       yMax:
         _serializedValue: 0
     _radius:
-      _serializedValue: 644245120
+      _serializedValue: 472446400
     _offSet:
       x:
         _serializedValue: 0
@@ -118262,7 +118262,7 @@ MonoBehaviour:
       yMax:
         _serializedValue: 0
     _radius:
-      _serializedValue: 644245120
+      _serializedValue: 472446400
     _offSet:
       x:
         _serializedValue: 0
@@ -118340,7 +118340,7 @@ MonoBehaviour:
       yMax:
         _serializedValue: 0
     _radius:
-      _serializedValue: 644245120
+      _serializedValue: 472446400
     _offSet:
       x:
         _serializedValue: 0
@@ -118418,7 +118418,7 @@ MonoBehaviour:
       yMax:
         _serializedValue: 0
     _radius:
-      _serializedValue: 644245120
+      _serializedValue: 472446400
     _offSet:
       x:
         _serializedValue: 0
@@ -118496,7 +118496,7 @@ MonoBehaviour:
       yMax:
         _serializedValue: 0
     _radius:
-      _serializedValue: 644245120
+      _serializedValue: 472446400
     _offSet:
       x:
         _serializedValue: 0
@@ -118574,7 +118574,7 @@ MonoBehaviour:
       yMax:
         _serializedValue: 0
     _radius:
-      _serializedValue: 644245120
+      _serializedValue: 472446400
     _offSet:
       x:
         _serializedValue: 0
@@ -118652,7 +118652,7 @@ MonoBehaviour:
       yMax:
         _serializedValue: 0
     _radius:
-      _serializedValue: 644245120
+      _serializedValue: 472446400
     _offSet:
       x:
         _serializedValue: 0
@@ -118730,7 +118730,7 @@ MonoBehaviour:
       yMax:
         _serializedValue: 0
     _radius:
-      _serializedValue: 644245120
+      _serializedValue: 472446400
     _offSet:
       x:
         _serializedValue: 0
@@ -118808,7 +118808,7 @@ MonoBehaviour:
       yMax:
         _serializedValue: 0
     _radius:
-      _serializedValue: 644245120
+      _serializedValue: 472446400
     _offSet:
       x:
         _serializedValue: 0
@@ -118886,7 +118886,7 @@ MonoBehaviour:
       yMax:
         _serializedValue: 0
     _radius:
-      _serializedValue: 644245120
+      _serializedValue: 472446400
     _offSet:
       x:
         _serializedValue: 0
@@ -118964,7 +118964,7 @@ MonoBehaviour:
       yMax:
         _serializedValue: 0
     _radius:
-      _serializedValue: 644245120
+      _serializedValue: 472446400
     _offSet:
       x:
         _serializedValue: 0
@@ -119042,7 +119042,7 @@ MonoBehaviour:
       yMax:
         _serializedValue: 0
     _radius:
-      _serializedValue: 644245120
+      _serializedValue: 472446400
     _offSet:
       x:
         _serializedValue: 0
@@ -119120,7 +119120,7 @@ MonoBehaviour:
       yMax:
         _serializedValue: 0
     _radius:
-      _serializedValue: 644245120
+      _serializedValue: 472446400
     _offSet:
       x:
         _serializedValue: 0
@@ -119198,7 +119198,7 @@ MonoBehaviour:
       yMax:
         _serializedValue: 0
     _radius:
-      _serializedValue: 644245120
+      _serializedValue: 472446400
     _offSet:
       x:
         _serializedValue: 0
@@ -119276,12 +119276,12 @@ MonoBehaviour:
       yMax:
         _serializedValue: 0
     _radius:
-      _serializedValue: 1073741824
+      _serializedValue: 644245120
     _offSet:
       x:
         _serializedValue: 0
       y:
-        _serializedValue: 0
+        _serializedValue: 601295424
       z:
         _serializedValue: 0
   activeHurtBoxes: []

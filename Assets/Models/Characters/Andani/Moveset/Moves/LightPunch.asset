@@ -535,7 +535,7 @@ MonoBehaviour:
           _serializedValue: 0
     hitToggle: 1
     damageOptionsToggle: 0
-    hitStunOptionsToggle: 1
+    hitStunOptionsToggle: 0
     forceOptionsToggle: 0
     opponentForceToggle: 0
     selfForceToggle: 0
@@ -606,7 +606,7 @@ MonoBehaviour:
   blockableArea:
     enabled: 1
     activeFramesBegin: 0
-    activeFramesEnds: 51
+    activeFramesEnds: 47
     bodyPart: 2
     hitBoxDefinitionIndex: 0
     shape: 0
@@ -660,7 +660,7 @@ MonoBehaviour:
     followXBounds: 0
     followYBounds: 0
     _radius:
-      _serializedValue: 8589934592
+      _serializedValue: 472446400
     _offSet:
       x:
         _serializedValue: 0
@@ -684,11 +684,11 @@ MonoBehaviour:
         _serializedValue: 0
     position:
       x:
-        _serializedValue: -101099840
+        _serializedValue: -120321344
       y:
-        _serializedValue: 4288071168
+        _serializedValue: 4289418752
       z:
-        _serializedValue: 152384272
+        _serializedValue: 148989744
   lockOnTargets: []
   switchCharacterOptions: []
   invincibleBodyParts: []
