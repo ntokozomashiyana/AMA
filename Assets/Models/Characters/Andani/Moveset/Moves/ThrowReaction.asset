@@ -14129,12 +14129,12 @@ MonoBehaviour:
     clip: {fileID: -346976372917795413, guid: cc65aba95a0ba68449789f68996e6d44, type: 3}
     customHitBoxDefinition: {fileID: 0}
     length:
-      _serializedValue: 3364391424
+      _serializedValue: 5010795520
     bakeSpeed: 1
     hitBoxDefinitionType: 0
   _animationSpeed:
     _serializedValue: 4294967296
-  wrapMode: 0
+  wrapMode: 1
   characterPrefab: {fileID: 1272366937168992, guid: fd64814b02364cc4c93cfc8c9717e635,
     type: 3}
   moveName: Throw Reaction
@@ -14144,8 +14144,8 @@ MonoBehaviour:
   ignoreFriction: 0
   cancelMoveWhenLanding: 0
   landingMoveLink: {fileID: 0}
-  forceMirrorLeft: 0
-  forceMirrorRight: 0
+  forceMirrorLeft: 1
+  forceMirrorRight: 1
   invertRotationLeft: 1
   invertRotationRight: 1
   autoCorrectRotation: 1
@@ -14168,7 +14168,7 @@ MonoBehaviour:
   forceGrounded: 0
   rootMotionNode: 2
   overrideBlendingIn: 0
-  overrideBlendingOut: 1
+  overrideBlendingOut: 0
   _blendingIn:
     _serializedValue: 429496736
   _blendingOut:
@@ -14223,7 +14223,7 @@ MonoBehaviour:
     recoverySpeed: 0
     hitConfirmType: 0
     preferableDistance: 0
-    gaugeUsage: 0
+    gaugeUsage: 2
     anyAttackType: 1
     anyHitType: 1
     anyHitConfirmType: 1

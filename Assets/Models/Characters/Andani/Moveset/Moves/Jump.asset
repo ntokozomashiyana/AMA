@@ -15,10 +15,17 @@ MonoBehaviour:
   gameplayType: 1
   animMap:
     animationMaps: []
+<<<<<<< HEAD
     clip: {fileID: 4165388329929976338, guid: d771ff272dd6aa94aa738e5d1c9f9a21, type: 3}
     customHitBoxDefinition: {fileID: 0}
     length:
       _serializedValue: 3221225728
+=======
+    clip: {fileID: 9119534266636528073, guid: 2d1f8bc85cd25224092473f976aa1c27, type: 3}
+    customHitBoxDefinition: {fileID: 0}
+    length:
+      _serializedValue: 2791729152
+>>>>>>> 49b09bf37af4bc1899b6b059b84492395719b54e
     bakeSpeed: 0
     hitBoxDefinitionType: 0
   _animationSpeed:
@@ -126,7 +133,7 @@ MonoBehaviour:
     recoverySpeed: 1
     hitConfirmType: 0
     preferableDistance: 0
-    gaugeUsage: 2
+    gaugeUsage: 1
     anyAttackType: 1
     anyHitType: 1
     anyHitConfirmType: 1

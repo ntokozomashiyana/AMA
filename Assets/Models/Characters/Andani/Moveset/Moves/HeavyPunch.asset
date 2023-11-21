@@ -596,7 +596,7 @@ MonoBehaviour:
     followXBounds: 0
     followYBounds: 0
     _radius:
-      _serializedValue: 644245120
+      _serializedValue: 472446400
     _offSet:
       x:
         _serializedValue: 0

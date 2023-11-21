@@ -21,9 +21,9 @@ MonoBehaviour:
   selectionAnimation: {fileID: 0}
   selectionSound: {fileID: 0}
   deathSound: {fileID: 0}
-  height: 155
+  height: 140
   age: 19
-  bloodType: Unknown
+  bloodType: O-
   lifePoints: 1000
   maxGaugePoints: 1000
   characterPrefabStorage: 0
@@ -54,29 +54,29 @@ MonoBehaviour:
       _serializedValue: 10737418240
     _moveSidewaysSpeed:
       _serializedValue: 12884901888
-    highMovingFriction: 1
+    highMovingFriction: 0
     _friction:
-      _serializedValue: 128849018880
+      _serializedValue: 85899345920
     canCrouch: 1
     crouchDelay: 2
     standingDelay: 2
     canJump: 1
     pressureSensitiveJump: 0
     _jumpForce:
-      _serializedValue: 107374182400
+      _serializedValue: 34359738368
     _minJumpForce:
       _serializedValue: 128849018880
     minJumpDelay: 4
     _jumpDistance:
-      _serializedValue: 34359738368
+      _serializedValue: 17179869184
     _jumpBackDistance:
-      _serializedValue: 34359738368
+      _serializedValue: 12884901888
     cumulativeForce: 1
     multiJumps: 1
     _weight:
-      _serializedValue: 429496729600
-    jumpDelay: 8
-    landingDelay: 7
+      _serializedValue: 292057776128
+    jumpDelay: 10
+    landingDelay: 10
     _groundCollisionMass:
       _serializedValue: 2147483648
   headLook:
@@ -101,14 +101,14 @@ MonoBehaviour:
     zAxisMovement: 0
     disableJump: 0
     disableCrouch: 0
-    jumpButton: 2
-    crouchButton: 3
+    jumpButton: 3
+    crouchButton: 2
   hideGauges: 00000000000000000000
   _executionTiming:
     _serializedValue: 1288490240
   possibleAirMoves: 1
   _blendingTime:
-    _serializedValue: 429496736
+    _serializedValue: 214748368
   animationType: 1
   avatar: {fileID: 9000000, guid: 8e8f7dbaa08c70d46bb42248e300f88b, type: 3}
   useScaleFlip: 0
@@ -120,5 +120,5 @@ MonoBehaviour:
   - _3DFighter/MoveSets/Andani
   moves: []
   aiInstructionsSet:
-  - aiInfo: {fileID: 11400000, guid: 381a98fe3348ea640801d8072511a960, type: 2}
-    behavior: 2
+  - aiInfo: {fileID: 11400000, guid: 67e0b6fafa88c46488258f82530ab56a, type: 2}
+    behavior: 3
