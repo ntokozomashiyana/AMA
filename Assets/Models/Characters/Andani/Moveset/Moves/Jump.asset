@@ -15,10 +15,10 @@ MonoBehaviour:
   gameplayType: 1
   animMap:
     animationMaps: []
-    clip: {fileID: 4165388329929976338, guid: d771ff272dd6aa94aa738e5d1c9f9a21, type: 3}
+    clip: {fileID: -4059497948015629504, guid: 5a22ca3056bea714b86db452a95403ef, type: 3}
     customHitBoxDefinition: {fileID: 0}
     length:
-      _serializedValue: 3221225728
+      _serializedValue: 4796046848
     bakeSpeed: 0
     hitBoxDefinitionType: 0
   _animationSpeed:
