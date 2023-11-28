@@ -382,7 +382,7 @@ MonoBehaviour:
           _serializedValue: 0
         z:
           _serializedValue: 0
-    hitToggle: 1
+    hitToggle: 0
     damageOptionsToggle: 0
     hitStunOptionsToggle: 0
     forceOptionsToggle: 0
@@ -533,11 +533,11 @@ MonoBehaviour:
         _serializedValue: 0
     position:
       x:
-        _serializedValue: 286474240
+        _serializedValue: 316774400
       y:
-        _serializedValue: 4810936320
+        _serializedValue: 4806070784
       z:
-        _serializedValue: -114187872
+        _serializedValue: -137088080
   lockOnTargets: []
   switchCharacterOptions: []
   invincibleBodyParts: []
