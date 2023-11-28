@@ -423,7 +423,7 @@ MonoBehaviour:
     overrideEventsToggle: 0
     hitConditionsToggle: 0
     pullInToggle: 0
-    hurtBoxesToggle: 1
+    hurtBoxesToggle: 0
     wallBounceToggle: 0
     groundBounceToggle: 0
     hurtBoxes:
@@ -439,63 +439,7 @@ MonoBehaviour:
         z:
           _serializedValue: 0
       _radius:
-        _serializedValue: 644245120
-      _rect:
-        _x:
-          _serializedValue: 0
-        _y:
-          _serializedValue: 0
-        topRight:
-          x:
-            _serializedValue: 0
-          y:
-            _serializedValue: 0
-          z:
-            _serializedValue: 0
-        topLeft:
-          x:
-            _serializedValue: 0
-          y:
-            _serializedValue: 0
-          z:
-            _serializedValue: 0
-        bottomRight:
-          x:
-            _serializedValue: 0
-          y:
-            _serializedValue: 0
-          z:
-            _serializedValue: 0
-        bottomLeft:
-          x:
-            _serializedValue: 0
-          y:
-            _serializedValue: 0
-          z:
-            _serializedValue: 0
-        width:
-          _serializedValue: 0
-        height:
-          _serializedValue: 0
-        xMax:
-          _serializedValue: 0
-        yMax:
-          _serializedValue: 0
-      shape: 0
-      type: 0
-    - bodyPart: 9
-      followXBounds: 0
-      followYBounds: 0
-      hitBoxDefinitionIndex: 0
-      _offSet:
-        x:
-          _serializedValue: 0
-        y:
-          _serializedValue: 0
-        z:
-          _serializedValue: 0
-      _radius:
-        _serializedValue: 644245120
+        _serializedValue: 429496736
       _rect:
         _x:
           _serializedValue: 0
@@ -620,11 +564,11 @@ MonoBehaviour:
         _serializedValue: 0
     position:
       x:
-        _serializedValue: -76028224
+        _serializedValue: 732438016
       y:
-        _serializedValue: 4366919168
+        _serializedValue: 3912730112
       z:
-        _serializedValue: 111265784
+        _serializedValue: 307297984
   lockOnTargets: []
   switchCharacterOptions: []
   invincibleBodyParts: []

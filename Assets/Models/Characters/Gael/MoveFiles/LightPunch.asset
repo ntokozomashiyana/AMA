@@ -46,10 +46,10 @@ MonoBehaviour:
   speedKeyFrameToggle: 0
   fixedSpeed: 1
   animSpeedKeyFrame: []
-  totalFrames: 48
+  totalFrames: 40
   startUpFrames: 10
   activeFrames: 13
-  recoveryFrames: 25
+  recoveryFrames: 17
   applyRootMotion: 0
   lockXMotion: 0
   lockYMotion: 0
@@ -66,7 +66,7 @@ MonoBehaviour:
     chargeMove: 0
     _chargeTiming:
       _serializedValue: 3006477107
-    allowInputLeniency: 1
+    allowInputLeniency: 0
     allowNegativeEdge: 0
     forceAxisPrecision: 0
     leniencyBuffer: 2
@@ -76,7 +76,7 @@ MonoBehaviour:
     buttonSequence: 
     buttonExecution: 04000000
     editorToggle: 1
-    buttonSequenceToggle: 1
+    buttonSequenceToggle: 0
     buttonExecutionToggle: 1
   altInputs:
     chargeMove: 0
@@ -107,22 +107,22 @@ MonoBehaviour:
       jumpArc: 0
       jumpArcBegins: 0
       jumpArcEnds: 100
-      opponentDistance: 0
+      opponentDistance: 1
       proximityRangeBegins: 0
-      proximityRangeEnds: 100
+      proximityRangeEnds: 25
       movingForward: 1
       movingBack: 1
       standBy: 1
-      blocking: 0
+      blocking: 1
       blockStunned: 0
       stunned: 0
       resetStunValue: 0
     basicMovesToggle: 0
-    statesToggle: 1
+    statesToggle: 0
   moveClassification:
     attackType: 1
     hitType: 0
-    startupSpeed: 4
+    startupSpeed: 3
     recoverySpeed: 1
     hitConfirmType: 0
     preferableDistance: 2
@@ -197,7 +197,7 @@ MonoBehaviour:
       basicMovesToggle: 0
       statesToggle: 0
     downHit: 0
-    resetPreviousHitStun: 0
+    resetPreviousHitStun: 1
     resetCrumples: 0
     customStunValues: 0
     overrideHitEffects: 0
@@ -260,9 +260,9 @@ MonoBehaviour:
     hitStrength: 0
     hitStunType: 1
     _hitStunOnHit:
-      _serializedValue: 34359738368
+      _serializedValue: 68719476736
     _hitStunOnBlock:
-      _serializedValue: 34359738368
+      _serializedValue: 68719476736
     frameAdvantageOnHit: 0
     frameAdvantageOnBlock: 0
     damageScaling: 0
@@ -384,7 +384,7 @@ MonoBehaviour:
           _serializedValue: 0
     hitToggle: 1
     damageOptionsToggle: 0
-    hitStunOptionsToggle: 1
+    hitStunOptionsToggle: 0
     forceOptionsToggle: 0
     opponentForceToggle: 0
     selfForceToggle: 0
@@ -392,7 +392,7 @@ MonoBehaviour:
     overrideEventsToggle: 0
     hitConditionsToggle: 0
     pullInToggle: 0
-    hurtBoxesToggle: 1
+    hurtBoxesToggle: 0
     wallBounceToggle: 0
     groundBounceToggle: 0
     hurtBoxes:
@@ -408,7 +408,7 @@ MonoBehaviour:
         z:
           _serializedValue: 0
       _radius:
-        _serializedValue: 472446400
+        _serializedValue: 386547072
       _rect:
         _x:
           _serializedValue: 0
@@ -533,11 +533,11 @@ MonoBehaviour:
         _serializedValue: 0
     position:
       x:
-        _serializedValue: -366405120
+        _serializedValue: 286474240
       y:
-        _serializedValue: 4946944512
+        _serializedValue: 4810936320
       z:
-        _serializedValue: 373095680
+        _serializedValue: -114187872
   lockOnTargets: []
   switchCharacterOptions: []
   invincibleBodyParts: []
