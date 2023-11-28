@@ -33,16 +33,16 @@ MonoBehaviour:
   alternativeCostumes: []
   initialPosition:
     x:
-      _serializedValue: 0
+      _serializedValue: 2250625
     y:
       _serializedValue: 0
     z:
-      _serializedValue: 0
+      _serializedValue: -285425472
   initialRotation:
     x:
       _serializedValue: 0
     y:
-      _serializedValue: 0
+      _serializedValue: 3008
     z:
       _serializedValue: 0
     w:
