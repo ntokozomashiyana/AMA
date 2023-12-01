@@ -957,7 +957,7 @@ MonoBehaviour:
   player2_Inputs:
   - inputType: 0
     inputButtonName: P2KeyboardHorizontal
-    engineRelatedButton: 1
+    engineRelatedButton: 0
     joystickAxisName: P2JoystickHorizontal
     cInputPositiveKeyName: P2Right
     cInputPositiveDefaultKey: RightArrow
@@ -1179,7 +1179,7 @@ MonoBehaviour:
     debugMode: 1
     emulateNetwork: 0
     trainingModeDebugger: 1
-    preloadedObjects: 1
+    preloadedObjects: 0
     inputsToggle: 0
     networkToggle: 0
     recordToggle: 0
@@ -1196,9 +1196,9 @@ MonoBehaviour:
     recordMatchTools: 0
     playbackPhysics: 0
     displayInputsNetwork: 0
-    displayInputsVersus: 0
+    displayInputsVersus: 1
     displayInputsTraining: 1
-    displayInputsStoryMode: 0
+    displayInputsStoryMode: 1
     displayInputsChallengeMode: 0
     p1DebugInfo:
       toggle: 0
@@ -1206,13 +1206,13 @@ MonoBehaviour:
       position: 1
       lifePoints: 1
       gaugePoints: 1
-      currentState: 0
-      currentSubState: 0
+      currentState: 1
+      currentSubState: 1
       stunTime: 1
       comboHits: 1
       comboDamage: 1
       inputs: 1
-      buttonSequence: 0
+      buttonSequence: 1
       aiWeightList: 1
     p2DebugInfo:
       toggle: 0
@@ -1220,13 +1220,13 @@ MonoBehaviour:
       position: 1
       lifePoints: 1
       gaugePoints: 1
-      currentState: 0
-      currentSubState: 0
+      currentState: 1
+      currentSubState: 1
       stunTime: 1
       comboHits: 1
       comboDamage: 1
       inputs: 1
-      buttonSequence: 0
+      buttonSequence: 1
       aiWeightList: 1
   trainingModeOptions:
     freezeTime: 0

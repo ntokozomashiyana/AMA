@@ -15,16 +15,16 @@ MonoBehaviour:
   gameplayType: 1
   animMap:
     animationMaps: []
-    clip: {fileID: 2981875352224051988, guid: 0cd187987c66aa149b83e909428985f5, type: 3}
+    clip: {fileID: 2100538246357165178, guid: 094e0a5dbc04e1042b184e2e5d09d5b9, type: 3}
     customHitBoxDefinition: {fileID: 0}
     length:
-      _serializedValue: 3435974144
+      _serializedValue: 2720146176
     bakeSpeed: 0
     hitBoxDefinitionType: 0
   _animationSpeed:
     _serializedValue: 4294967296
   wrapMode: 0
-  characterPrefab: {fileID: 2784035237574922318, guid: 34dd5f6b9de8e9644809980495d5ebea,
+  characterPrefab: {fileID: 7874467865893363913, guid: 93d56fe21d70bfb478bfc2e8bae95041,
     type: 3}
   moveName: Light Punch
   description: Light Punch
@@ -46,10 +46,10 @@ MonoBehaviour:
   speedKeyFrameToggle: 0
   fixedSpeed: 1
   animSpeedKeyFrame: []
-  totalFrames: 48
-  startUpFrames: 5
-  activeFrames: 23
-  recoveryFrames: 20
+  totalFrames: 38
+  startUpFrames: 25
+  activeFrames: 9
+  recoveryFrames: 4
   applyRootMotion: 0
   lockXMotion: 0
   lockYMotion: 0
@@ -299,7 +299,7 @@ MonoBehaviour:
     _gaugeGainOnMiss:
       _serializedValue: 0
     _gaugeGainOnHit:
-      _serializedValue: 8589934592
+      _serializedValue: 214748364800
     _gaugeGainOnBlock:
       _serializedValue: 4294967296
     _opGaugeGainOnBlock:
@@ -324,8 +324,8 @@ MonoBehaviour:
   stanceChanges: []
   cameraMovements: []
   hits:
-  - activeFramesBegin: 5
-    activeFramesEnds: 27
+  - activeFramesBegin: 25
+    activeFramesEnds: 33
     hitConfirmType: 0
     throwMove: {fileID: 0}
     techMove: {fileID: 0}
@@ -533,7 +533,7 @@ MonoBehaviour:
           _serializedValue: 0
         z:
           _serializedValue: 0
-    hitToggle: 1
+    hitToggle: 0
     damageOptionsToggle: 0
     hitStunOptionsToggle: 0
     forceOptionsToggle: 0
@@ -543,7 +543,7 @@ MonoBehaviour:
     overrideEventsToggle: 0
     hitConditionsToggle: 0
     pullInToggle: 0
-    hurtBoxesToggle: 1
+    hurtBoxesToggle: 0
     wallBounceToggle: 0
     groundBounceToggle: 0
     hurtBoxes:
@@ -684,11 +684,11 @@ MonoBehaviour:
         _serializedValue: 0
     position:
       x:
-        _serializedValue: -120321344
+        _serializedValue: -75931680
       y:
-        _serializedValue: 4289418752
+        _serializedValue: 4396936192
       z:
-        _serializedValue: 148989744
+        _serializedValue: 112611576
   lockOnTargets: []
   switchCharacterOptions: []
   invincibleBodyParts: []
