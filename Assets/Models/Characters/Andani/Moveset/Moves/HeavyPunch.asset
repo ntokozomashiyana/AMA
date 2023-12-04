@@ -15,16 +15,16 @@ MonoBehaviour:
   gameplayType: 1
   animMap:
     animationMaps: []
-    clip: {fileID: 5775049140211631354, guid: 7d8562130f1bb5740bc710a23b15ab02, type: 3}
+    clip: {fileID: -348926458447525761, guid: 5c8ad96587c8f3d449fa479d0aa46e62, type: 3}
     customHitBoxDefinition: {fileID: 0}
     length:
-      _serializedValue: 5010795520
+      _serializedValue: 2791728896
     bakeSpeed: 0
     hitBoxDefinitionType: 0
   _animationSpeed:
     _serializedValue: 4294967296
   wrapMode: 0
-  characterPrefab: {fileID: 2784035237574922318, guid: 34dd5f6b9de8e9644809980495d5ebea,
+  characterPrefab: {fileID: 7874467865893363913, guid: 93d56fe21d70bfb478bfc2e8bae95041,
     type: 3}
   moveName: Heavy Punch
   description: Heavy Punch
@@ -46,10 +46,10 @@ MonoBehaviour:
   speedKeyFrameToggle: 0
   fixedSpeed: 1
   animSpeedKeyFrame: []
-  totalFrames: 70
-  startUpFrames: 33
-  activeFrames: 18
-  recoveryFrames: 19
+  totalFrames: 39
+  startUpFrames: 15
+  activeFrames: 16
+  recoveryFrames: 8
   applyRootMotion: 0
   lockXMotion: 0
   lockYMotion: 0
@@ -204,8 +204,8 @@ MonoBehaviour:
   stanceChanges: []
   cameraMovements: []
   hits:
-  - activeFramesBegin: 33
-    activeFramesEnds: 50
+  - activeFramesBegin: 15
+    activeFramesEnds: 30
     hitConfirmType: 0
     throwMove: {fileID: 0}
     techMove: {fileID: 0}
@@ -415,7 +415,7 @@ MonoBehaviour:
           _serializedValue: 0
     hitToggle: 1
     damageOptionsToggle: 1
-    hitStunOptionsToggle: 1
+    hitStunOptionsToggle: 0
     forceOptionsToggle: 0
     opponentForceToggle: 0
     selfForceToggle: 0
@@ -439,7 +439,7 @@ MonoBehaviour:
         z:
           _serializedValue: 0
       _radius:
-        _serializedValue: 429496736
+        _serializedValue: 300647712
       _rect:
         _x:
           _serializedValue: 0
@@ -564,11 +564,11 @@ MonoBehaviour:
         _serializedValue: 0
     position:
       x:
-        _serializedValue: 732438016
+        _serializedValue: 0
       y:
-        _serializedValue: 3912730112
+        _serializedValue: 0
       z:
-        _serializedValue: 307297984
+        _serializedValue: 0
   lockOnTargets: []
   switchCharacterOptions: []
   invincibleBodyParts: []
