@@ -4,10 +4,10 @@ using System;
 using System.Collections.Generic;
 using UFE3D;
 
-public class DefaultBattleGUI : BattleGUI {
+public class DefaultBattleGUI : BattleGUI{
 	#region public class definitions
 	[Serializable]
-	public class PlayerGUI {
+	public class PlayerGUI{
 		public Text name;
 		public Image portrait;
 		public Image lifeBar;
@@ -17,31 +17,29 @@ public class DefaultBattleGUI : BattleGUI {
 	}
 
 	[Serializable]
-	public class AlertGUI {
+	public class AlertGUI{
 		public Text text;
 		public Vector3 initialPosition;
-        public GameObject glowingShield; //Shield glow - [if gauge is full]
-        public Vector3 finalPosition;
+		public Vector3 finalPosition;
 		public float movementSpeed = 15f;
 	}
 
 	[Serializable]
-	public class WonRoundsGUI {
+	public class WonRoundsGUI{
 		public Sprite NotFinishedRounds;
 		public Sprite WonRounds;
 		public Sprite LostRounds;
 		public DefaultBattleGUI.VisibleImages VisibleImages = DefaultBattleGUI.VisibleImages.WonRounds;
 
-		public int GetNumberOfRoundsImages() {
+		public int GetNumberOfRoundsImages(){
 			// To calculate the target number of images, check if the "Lost Rounds" Sprite is defined or not
-			if (this.VisibleImages == VisibleImages.AllRounds) {
+			if (this.VisibleImages == VisibleImages.AllRounds){
 				return UFE.config.roundOptions.totalRounds;
 			}
 			return (UFE.config.roundOptions.totalRounds + 1) / 2;
 		}
 	}
 
-	
 	public enum VisibleImages{
 		WonRounds,
 		AllRounds,
@@ -234,8 +232,6 @@ public class DefaultBattleGUI : BattleGUI {
                     if (this.player1GUI.gauges[i].gameObject.activeInHierarchy)
                     {
                         this.player1GUI.gauges[i].fillAmount = (float)player1.controlsScript.currentGaugesPoints[i] / UFE.config.player1Character.maxGaugePoints;
-						
-						
                     }
                 }
                 for (int i = 0; i < this.player2GUI.gauges.Length; i++)
@@ -243,20 +239,9 @@ public class DefaultBattleGUI : BattleGUI {
                     if (this.player2GUI.gauges[i].gameObject.activeInHierarchy)
                     {
                         this.player2GUI.gauges[i].fillAmount = (float)player2.controlsScript.currentGaugesPoints[i] / UFE.config.player2Character.maxGaugePoints;
-                        
                     }
                 }
-
-				// SHIELD GLOW
-                if (this.player1GUI.gauges[0].fillAmount == 1 || this.player2GUI.gauges[0].fillAmount == 1)
-                {
-                    this.mainAlert.glowingShield.SetActive(true);
-                }
-                else
-                {
-                    this.mainAlert.glowingShield.SetActive(false);
-                }
-            }
+			}
 
 			if (this.pause != null){
 				this.pause.DoFixedUpdate(player1PreviousInputs, player1CurrentInputs, player2PreviousInputs, player2CurrentInputs);
