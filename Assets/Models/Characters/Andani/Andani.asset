@@ -49,9 +49,9 @@ MonoBehaviour:
       _serializedValue: 4294967296
   physics:
     _moveForwardSpeed:
-      _serializedValue: 10737418240
+      _serializedValue: 11596411904
     _moveBackSpeed:
-      _serializedValue: 10737418240
+      _serializedValue: 11596411904
     _moveSidewaysSpeed:
       _serializedValue: 12884901888
     highMovingFriction: 0

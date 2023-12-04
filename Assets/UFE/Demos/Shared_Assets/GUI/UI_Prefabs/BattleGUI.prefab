@@ -753,6 +753,7 @@ MonoBehaviour:
       initialPosition: {x: 80, y: -250, z: 0}
       finalPosition: {x: 80, y: -200, z: 0}
       movementSpeed: 15
+      glowingShield: {fileID: 0}
   player2GUI:
     name: {fileID: 7594137882089348923}
     portrait: {fileID: 4081905857567712115}
@@ -768,11 +769,13 @@ MonoBehaviour:
       initialPosition: {x: -80, y: -250, z: 0}
       finalPosition: {x: -80, y: -200, z: 0}
       movementSpeed: 15
+      glowingShield: {fileID: 0}
   mainAlert:
     text: {fileID: 1778516968328909729}
     initialPosition: {x: 0, y: -100, z: 0}
     finalPosition: {x: 0, y: -85, z: 0}
     movementSpeed: 15
+    glowingShield: {fileID: 3143146874948282790}
   info: {fileID: 509025652250189536}
   timer: {fileID: 5203282447950010529}
   lifeDownSpeed: 500
