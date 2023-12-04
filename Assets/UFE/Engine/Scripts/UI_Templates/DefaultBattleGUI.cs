@@ -22,6 +22,7 @@ public class DefaultBattleGUI : BattleGUI{
 		public Vector3 initialPosition;
 		public Vector3 finalPosition;
 		public float movementSpeed = 15f;
+		public GameObject glowingShield;
 	}
 
 	[Serializable]
@@ -240,6 +241,15 @@ public class DefaultBattleGUI : BattleGUI{
                     {
                         this.player2GUI.gauges[i].fillAmount = (float)player2.controlsScript.currentGaugesPoints[i] / UFE.config.player2Character.maxGaugePoints;
                     }
+                }
+
+				if (this.player1GUI.gauges[0].fillAmount == 1 || this.player2GUI.gauges[0].fillAmount == 1)
+				{
+					this.mainAlert.glowingShield.SetActive(true);
+				}
+				else
+				{
+                    this.mainAlert.glowingShield.SetActive(false);
                 }
 			}
 
