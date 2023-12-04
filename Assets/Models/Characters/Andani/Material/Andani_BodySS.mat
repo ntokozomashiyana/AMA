@@ -188,7 +188,7 @@ Material:
     - _CullModeForward: 2
     - _Cutoff: 0.5
     - _DepthOffsetEnable: 0
-    - _DetailAlbedoScale: 0.917
+    - _DetailAlbedoScale: 0.742
     - _DetailNormalScale: 0
     - _DetailSmoothnessScale: 0.8
     - _DiffusionProfile: 0
