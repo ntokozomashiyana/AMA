@@ -15,7 +15,7 @@ public class GlowingShield : MonoBehaviour
 
     public void Update()
     {
-        //Activate glowing shield
+        //Activate p1 glowing shield
         if (battleGUIreference.player1GUI.gauges[0].fillAmount == 1)
         {
             p1GlowingShield.SetActive(true);
@@ -25,7 +25,7 @@ public class GlowingShield : MonoBehaviour
         {
             p1GlowingShield.SetActive(false);
         }
-        //Activate glowing shield
+        //Activate p2 glowing shield
         if (battleGUIreference.player2GUI.gauges[0].fillAmount == 1)
         {
             p2GlowingShield.SetActive(true);
