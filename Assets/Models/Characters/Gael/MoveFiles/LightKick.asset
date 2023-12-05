@@ -257,7 +257,7 @@ MonoBehaviour:
     instantAirRecovery: 0
     overrideHitAnimation: 0
     newHitAnimation: 27
-    hitStrength: 0
+    hitStrength: 1
     hitStunType: 1
     _hitStunOnHit:
       _serializedValue: 68719476736
@@ -274,7 +274,7 @@ MonoBehaviour:
     _damageOnBlock:
       _serializedValue: 0
     doesntKill: 0
-    hitType: 0
+    hitType: 4
     resetPreviousHorizontalPush: 0
     resetPreviousVerticalPush: 0
     resetPreviousSidewaysPush: 0
@@ -382,8 +382,8 @@ MonoBehaviour:
           _serializedValue: 0
         z:
           _serializedValue: 0
-    hitToggle: 0
-    damageOptionsToggle: 1
+    hitToggle: 1
+    damageOptionsToggle: 0
     hitStunOptionsToggle: 0
     forceOptionsToggle: 0
     opponentForceToggle: 0
@@ -409,6 +409,62 @@ MonoBehaviour:
           _serializedValue: 0
       _radius:
         _serializedValue: 386547072
+      _rect:
+        _x:
+          _serializedValue: 0
+        _y:
+          _serializedValue: 0
+        topRight:
+          x:
+            _serializedValue: 0
+          y:
+            _serializedValue: 0
+          z:
+            _serializedValue: 0
+        topLeft:
+          x:
+            _serializedValue: 0
+          y:
+            _serializedValue: 0
+          z:
+            _serializedValue: 0
+        bottomRight:
+          x:
+            _serializedValue: 0
+          y:
+            _serializedValue: 0
+          z:
+            _serializedValue: 0
+        bottomLeft:
+          x:
+            _serializedValue: 0
+          y:
+            _serializedValue: 0
+          z:
+            _serializedValue: 0
+        width:
+          _serializedValue: 0
+        height:
+          _serializedValue: 0
+        xMax:
+          _serializedValue: 0
+        yMax:
+          _serializedValue: 0
+      shape: 0
+      type: 0
+    - bodyPart: 12
+      followXBounds: 0
+      followYBounds: 0
+      hitBoxDefinitionIndex: 0
+      _offSet:
+        x:
+          _serializedValue: 0
+        y:
+          _serializedValue: 0
+        z:
+          _serializedValue: 0
+      _radius:
+        _serializedValue: 730144448
       _rect:
         _x:
           _serializedValue: 0
@@ -533,11 +589,11 @@ MonoBehaviour:
         _serializedValue: 0
     position:
       x:
-        _serializedValue: 983572224
+        _serializedValue: 1102165760
       y:
-        _serializedValue: 4915461632
+        _serializedValue: 4694642688
       z:
-        _serializedValue: -1036797376
+        _serializedValue: -780106432
   lockOnTargets: []
   switchCharacterOptions: []
   invincibleBodyParts: []
