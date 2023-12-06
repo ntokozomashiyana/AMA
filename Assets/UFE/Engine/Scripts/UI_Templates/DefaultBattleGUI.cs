@@ -22,6 +22,8 @@ public class DefaultBattleGUI : BattleGUI{
 		public Vector3 initialPosition;
 		public Vector3 finalPosition;
 		public float movementSpeed = 15f;
+		//public GameObject glowingShield;
+		//public int gaugeIndex = 0;
 	}
 
 	[Serializable]
@@ -39,6 +41,7 @@ public class DefaultBattleGUI : BattleGUI{
 			return (UFE.config.roundOptions.totalRounds + 1) / 2;
 		}
 	}
+
 
 	public enum VisibleImages{
 		WonRounds,
@@ -241,6 +244,18 @@ public class DefaultBattleGUI : BattleGUI{
                         this.player2GUI.gauges[i].fillAmount = (float)player2.controlsScript.currentGaugesPoints[i] / UFE.config.player2Character.maxGaugePoints;
                     }
                 }
+
+				/*
+				//Activate glowing shield
+				if (this.player1GUI.gauges[0].fillAmount == 1 || this.player2GUI.gauges[this.mainAlert.gaugeIndex].fillAmount == 1)
+				{
+					this.mainAlert.glowingShield.SetActive(true);
+				}
+				else
+				{
+                    this.mainAlert.glowingShield.SetActive(false);
+                }
+				*/
 			}
 
 			if (this.pause != null){

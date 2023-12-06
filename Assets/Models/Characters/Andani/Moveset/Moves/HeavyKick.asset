@@ -15,16 +15,16 @@ MonoBehaviour:
   gameplayType: 1
   animMap:
     animationMaps: []
-    clip: {fileID: -1512638647822578034, guid: db589ff620ab43649977122f8352f3aa, type: 3}
+    clip: {fileID: -8420961648953392389, guid: 5bcfff28f3b484943981cd6a28f84859, type: 3}
     customHitBoxDefinition: {fileID: 0}
     length:
-      _serializedValue: 5010795520
+      _serializedValue: 7659358720
     bakeSpeed: 0
     hitBoxDefinitionType: 0
   _animationSpeed:
     _serializedValue: 4294967296
   wrapMode: 0
-  characterPrefab: {fileID: 2784035237574922318, guid: 34dd5f6b9de8e9644809980495d5ebea,
+  characterPrefab: {fileID: 7874467865893363913, guid: 93d56fe21d70bfb478bfc2e8bae95041,
     type: 3}
   moveName: Heavy Kick
   description: Andani's Heavy Kick
@@ -46,10 +46,10 @@ MonoBehaviour:
   speedKeyFrameToggle: 0
   fixedSpeed: 1
   animSpeedKeyFrame: []
-  totalFrames: 70
+  totalFrames: 107
   startUpFrames: 30
-  activeFrames: 16
-  recoveryFrames: 24
+  activeFrames: 25
+  recoveryFrames: 52
   applyRootMotion: 0
   lockXMotion: 0
   lockYMotion: 0
@@ -208,7 +208,7 @@ MonoBehaviour:
   cameraMovements: []
   hits:
   - activeFramesBegin: 30
-    activeFramesEnds: 45
+    activeFramesEnds: 54
     hitConfirmType: 0
     throwMove: {fileID: 0}
     techMove: {fileID: 0}
@@ -430,7 +430,7 @@ MonoBehaviour:
     wallBounceToggle: 0
     groundBounceToggle: 0
     hurtBoxes:
-    - bodyPart: 15
+    - bodyPart: 14
       followXBounds: 0
       followYBounds: 0
       hitBoxDefinitionIndex: 0
@@ -567,11 +567,11 @@ MonoBehaviour:
         _serializedValue: 0
     position:
       x:
-        _serializedValue: -81726272
+        _serializedValue: 0
       y:
-        _serializedValue: 4367403520
+        _serializedValue: 0
       z:
-        _serializedValue: 108117864
+        _serializedValue: 0
   lockOnTargets: []
   switchCharacterOptions: []
   invincibleBodyParts: []
