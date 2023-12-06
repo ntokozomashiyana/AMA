@@ -10,7 +10,7 @@ public class GlowingShield : MonoBehaviour
 
     public void Start()
     {
-        Debug.Log(battleGUIreference.player1GUI.gauges[0].fillAmount);
+       // Debug.Log(battleGUIreference.player1GUI.gauges[0].fillAmount);
     }
 
     public void Update()
@@ -19,7 +19,6 @@ public class GlowingShield : MonoBehaviour
         if (battleGUIreference.player1GUI.gauges[0].fillAmount == 1)
         {
             p1GlowingShield.SetActive(true);
-            Debug.Log("Hahaha!");
         }
         else
         {
@@ -29,7 +28,6 @@ public class GlowingShield : MonoBehaviour
         if (battleGUIreference.player2GUI.gauges[0].fillAmount == 1)
         {
             p2GlowingShield.SetActive(true);
-            Debug.Log("Muahahaha!");
         }
         else
         {
