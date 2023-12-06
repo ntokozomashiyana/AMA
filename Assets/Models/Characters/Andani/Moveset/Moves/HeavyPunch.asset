@@ -288,7 +288,7 @@ MonoBehaviour:
     instantAirRecovery: 0
     overrideHitAnimation: 0
     newHitAnimation: 27
-    hitStrength: 1
+    hitStrength: 2
     hitStunType: 1
     _hitStunOnHit:
       _serializedValue: 395136991232
