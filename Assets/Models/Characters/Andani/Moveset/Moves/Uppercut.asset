@@ -18,7 +18,7 @@ MonoBehaviour:
     clip: {fileID: 5058512698459542820, guid: 2063e191361cd8843973ad1472e7c2e3, type: 3}
     customHitBoxDefinition: {fileID: 0}
     length:
-      _serializedValue: 2290649344
+      _serializedValue: 3149642752
     bakeSpeed: 0
     hitBoxDefinitionType: 0
   _animationSpeed:
