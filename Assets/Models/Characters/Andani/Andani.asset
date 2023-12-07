@@ -49,32 +49,32 @@ MonoBehaviour:
       _serializedValue: 4294967296
   physics:
     _moveForwardSpeed:
-      _serializedValue: 11596411904
+      _serializedValue: 13743895552
     _moveBackSpeed:
-      _serializedValue: 11596411904
+      _serializedValue: 12884901888
     _moveSidewaysSpeed:
       _serializedValue: 12884901888
     highMovingFriction: 0
     _friction:
-      _serializedValue: 85899345920
+      _serializedValue: 34359738368
     canCrouch: 1
     crouchDelay: 2
     standingDelay: 2
     canJump: 1
     pressureSensitiveJump: 0
     _jumpForce:
-      _serializedValue: 34359738368
+      _serializedValue: 42949672960
     _minJumpForce:
       _serializedValue: 128849018880
     minJumpDelay: 4
     _jumpDistance:
-      _serializedValue: 17179869184
+      _serializedValue: 42949672960
     _jumpBackDistance:
-      _serializedValue: 12884901888
+      _serializedValue: 42949672960
     cumulativeForce: 1
     multiJumps: 1
     _weight:
-      _serializedValue: 292057776128
+      _serializedValue: 343597383680
     jumpDelay: 10
     landingDelay: 10
     _groundCollisionMass:
@@ -105,7 +105,7 @@ MonoBehaviour:
     crouchButton: 3
   hideGauges: 00000000000000000000
   _executionTiming:
-    _serializedValue: 1288490240
+    _serializedValue: 2147483648
   possibleAirMoves: 1
   _blendingTime:
     _serializedValue: 214748368

@@ -458,7 +458,7 @@ MonoBehaviour:
       hitBoxDefinitionIndex: 0
       _offSet:
         x:
-          _serializedValue: 0
+          _serializedValue: 901943104
         y:
           _serializedValue: 0
         z:
@@ -511,7 +511,7 @@ MonoBehaviour:
   blockableArea:
     enabled: 1
     activeFramesBegin: 0
-    activeFramesEnds: 51
+    activeFramesEnds: 71
     bodyPart: 2
     hitBoxDefinitionIndex: 0
     shape: 0
@@ -589,11 +589,11 @@ MonoBehaviour:
         _serializedValue: 0
     position:
       x:
-        _serializedValue: 1102165760
+        _serializedValue: -509432896
       y:
-        _serializedValue: 4694642688
+        _serializedValue: 4946947584
       z:
-        _serializedValue: -780106432
+        _serializedValue: 118008512
   lockOnTargets: []
   switchCharacterOptions: []
   invincibleBodyParts: []
