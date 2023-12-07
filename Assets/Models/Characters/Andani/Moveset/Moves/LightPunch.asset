@@ -533,7 +533,7 @@ MonoBehaviour:
           _serializedValue: 0
         z:
           _serializedValue: 0
-    hitToggle: 0
+    hitToggle: 1
     damageOptionsToggle: 1
     hitStunOptionsToggle: 0
     forceOptionsToggle: 0
@@ -606,7 +606,7 @@ MonoBehaviour:
   blockableArea:
     enabled: 1
     activeFramesBegin: 0
-    activeFramesEnds: 47
+    activeFramesEnds: 27
     bodyPart: 2
     hitBoxDefinitionIndex: 0
     shape: 0
