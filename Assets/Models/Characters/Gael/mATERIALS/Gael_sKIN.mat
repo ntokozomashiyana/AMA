@@ -170,7 +170,7 @@ Material:
     - _DepthOffsetEnable: 0
     - _DetailAlbedoScale: 0.096
     - _DetailNormalScale: 0
-    - _DetailSmoothnessScale: 0.476
+    - _DetailSmoothnessScale: 0.85
     - _DiffusionProfile: 0
     - _DiffusionProfileHash: 3.0069845
     - _DisplacementLockObjectScale: 1
