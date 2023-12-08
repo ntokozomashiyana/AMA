@@ -159,7 +159,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _DetailMap:
         m_Texture: {fileID: 2800000, guid: a8bcf1f7aa2fd174c8c29d5609cf43f4, type: 3}
-        m_Scale: {x: 1, y: 1}
+        m_Scale: {x: 15, y: 15}
         m_Offset: {x: 0, y: 0}
     - _DetailMap0:
         m_Texture: {fileID: 0}
@@ -480,7 +480,7 @@ Material:
     - _CullModeForward: 0
     - _Cutoff: 0.5
     - _DepthOffsetEnable: 0
-    - _DetailAlbedoScale: 0.341
+    - _DetailAlbedoScale: 0.649
     - _DetailAlbedoScale0: 1
     - _DetailAlbedoScale1: 1
     - _DetailAlbedoScale2: 1
@@ -490,7 +490,7 @@ Material:
     - _DetailNormalScale1: 1
     - _DetailNormalScale2: 1
     - _DetailNormalScale3: 1
-    - _DetailSmoothnessScale: 0.797
+    - _DetailSmoothnessScale: 1.431
     - _DetailSmoothnessScale0: 1
     - _DetailSmoothnessScale1: 1
     - _DetailSmoothnessScale2: 1
@@ -586,7 +586,7 @@ Material:
     - _IridescenceMask: 1
     - _IridescenceThickness: 1
     - _LayerCount: 2
-    - _LinkDetailsWithBase: 1
+    - _LinkDetailsWithBase: 0
     - _LinkDetailsWithBase0: 1
     - _LinkDetailsWithBase1: 1
     - _LinkDetailsWithBase2: 1
@@ -613,7 +613,7 @@ Material:
     - _NormalMapSpace1: 0
     - _NormalMapSpace2: 0
     - _NormalMapSpace3: 0
-    - _NormalScale: 1.3
+    - _NormalScale: 0.85
     - _NormalScale0: 1
     - _NormalScale1: 1
     - _NormalScale2: 1
@@ -646,7 +646,7 @@ Material:
     - _SPECULAR_ROTATION: 0
     - _SPECULAR_ROUGHNESS: 1
     - _SPECULAR_WEIGHT: 0
-    - _Smoothness: 0
+    - _Smoothness: 0.043
     - _Smoothness0: 0.5
     - _Smoothness1: 0.5
     - _Smoothness2: 0.5
