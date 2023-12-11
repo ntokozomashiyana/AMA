@@ -49,7 +49,7 @@ Material:
   m_LightmapFlags: 1
   m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 2767
+  m_CustomRenderQueue: 2775
   stringTagMap:
     MotionVector: User
     RenderType: Transparent
@@ -845,7 +845,7 @@ Material:
     - _TransparentCullMode: 2
     - _TransparentDepthPostpassEnable: 0
     - _TransparentDepthPrepassEnable: 0
-    - _TransparentSortPriority: 17
+    - _TransparentSortPriority: 25
     - _TransparentWritingMotionVec: 0
     - _TransparentZWrite: 0
     - _UVBase: 1

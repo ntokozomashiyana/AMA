@@ -490,7 +490,7 @@ Material:
     - _DetailNormalScale1: 1
     - _DetailNormalScale2: 1
     - _DetailNormalScale3: 1
-    - _DetailSmoothnessScale: 1.431
+    - _DetailSmoothnessScale: 0.008
     - _DetailSmoothnessScale0: 1
     - _DetailSmoothnessScale1: 1
     - _DetailSmoothnessScale2: 1
@@ -646,7 +646,7 @@ Material:
     - _SPECULAR_ROTATION: 0
     - _SPECULAR_ROUGHNESS: 1
     - _SPECULAR_WEIGHT: 0
-    - _Smoothness: 0.043
+    - _Smoothness: 0.033
     - _Smoothness0: 0.5
     - _Smoothness1: 0.5
     - _Smoothness2: 0.5
