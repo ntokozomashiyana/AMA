@@ -188,9 +188,9 @@ Material:
     - _CullModeForward: 0
     - _Cutoff: 0.5
     - _DepthOffsetEnable: 0
-    - _DetailAlbedoScale: 0.607
+    - _DetailAlbedoScale: 0.496
     - _DetailNormalScale: 0
-    - _DetailSmoothnessScale: 0.747
+    - _DetailSmoothnessScale: 0.753
     - _DiffusionProfile: 0
     - _DiffusionProfileHash: 3.0069845
     - _DisplacementLockObjectScale: 1
@@ -227,7 +227,7 @@ Material:
     - _MetallicRemapMax: 1
     - _MetallicRemapMin: 0
     - _NormalMapSpace: 0
-    - _NormalScale: 1.31
+    - _NormalScale: 1.14
     - _ObjectSpaceUVMapping: 0
     - _ObjectSpaceUVMappingEmissive: 0
     - _OpaqueCullMode: 2
@@ -255,7 +255,7 @@ Material:
     - _StencilWriteMaskDepth: 9
     - _StencilWriteMaskGBuffer: 15
     - _StencilWriteMaskMV: 41
-    - _SubsurfaceMask: 1
+    - _SubsurfaceMask: 0.023
     - _SupportDecals: 1
     - _SurfaceType: 0
     - _TexWorldScale: 1
@@ -280,9 +280,9 @@ Material:
     - _ZTestTransparent: 4
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 0.2264151, g: 0.06301175, b: 0.06301175, a: 1}
+    - _BaseColor: {r: 0.3301887, g: 0.1791118, b: 0.1791118, a: 1}
     - _BaseColorMap_MipInfo: {r: 0, g: 0, b: 0, a: 0}
-    - _Color: {r: 0.22641507, g: 0.06301173, b: 0.06301173, a: 1}
+    - _Color: {r: 0.33018863, g: 0.17911175, b: 0.17911175, a: 1}
     - _DiffusionProfileAsset: {r: -3.3024726, g: 4.3402976e+31, b: 1.0592806e-35,
         a: 0.24250896}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
