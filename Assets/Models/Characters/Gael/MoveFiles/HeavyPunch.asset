@@ -22,9 +22,9 @@ MonoBehaviour:
     bakeSpeed: 0
     hitBoxDefinitionType: 0
   _animationSpeed:
-    _serializedValue: 3435973888
+    _serializedValue: 6442450944
   wrapMode: 0
-  characterPrefab: {fileID: 4389512840600278581, guid: 5d501972a05b92b49a034ac4799b162e,
+  characterPrefab: {fileID: 6009371781268647409, guid: 5ddc7a9da333e39498800d5c4829a403,
     type: 3}
   moveName: Heavy Punch
   description: Heavy Punch
@@ -46,10 +46,10 @@ MonoBehaviour:
   speedKeyFrameToggle: 0
   fixedSpeed: 1
   animSpeedKeyFrame: []
-  totalFrames: 150
-  startUpFrames: 70
-  activeFrames: 31
-  recoveryFrames: 49
+  totalFrames: 80
+  startUpFrames: 40
+  activeFrames: 11
+  recoveryFrames: 29
   applyRootMotion: 0
   lockXMotion: 0
   lockYMotion: 0
@@ -74,7 +74,7 @@ MonoBehaviour:
     requireButtonPress: 1
     onPressExecution: 1
     buttonSequence: 
-    buttonExecution: 05000000
+    buttonExecution: 06000000
     editorToggle: 1
     buttonSequenceToggle: 0
     buttonExecutionToggle: 0
@@ -173,8 +173,8 @@ MonoBehaviour:
   stanceChanges: []
   cameraMovements: []
   hits:
-  - activeFramesBegin: 70
-    activeFramesEnds: 100
+  - activeFramesBegin: 40
+    activeFramesEnds: 50
     hitConfirmType: 0
     throwMove: {fileID: 0}
     techMove: {fileID: 0}
@@ -382,7 +382,7 @@ MonoBehaviour:
           _serializedValue: 0
         z:
           _serializedValue: 0
-    hitToggle: 0
+    hitToggle: 1
     damageOptionsToggle: 1
     hitStunOptionsToggle: 1
     forceOptionsToggle: 0
@@ -408,63 +408,7 @@ MonoBehaviour:
         z:
           _serializedValue: 0
       _radius:
-        _serializedValue: 644245120
-      _rect:
-        _x:
-          _serializedValue: 0
-        _y:
-          _serializedValue: 0
-        topRight:
-          x:
-            _serializedValue: 0
-          y:
-            _serializedValue: 0
-          z:
-            _serializedValue: 0
-        topLeft:
-          x:
-            _serializedValue: 0
-          y:
-            _serializedValue: 0
-          z:
-            _serializedValue: 0
-        bottomRight:
-          x:
-            _serializedValue: 0
-          y:
-            _serializedValue: 0
-          z:
-            _serializedValue: 0
-        bottomLeft:
-          x:
-            _serializedValue: 0
-          y:
-            _serializedValue: 0
-          z:
-            _serializedValue: 0
-        width:
-          _serializedValue: 0
-        height:
-          _serializedValue: 0
-        xMax:
-          _serializedValue: 0
-        yMax:
-          _serializedValue: 0
-      shape: 0
-      type: 0
-    - bodyPart: 9
-      followXBounds: 0
-      followYBounds: 0
-      hitBoxDefinitionIndex: 0
-      _offSet:
-        x:
-          _serializedValue: 0
-        y:
-          _serializedValue: 0
-        z:
-          _serializedValue: 0
-      _radius:
-        _serializedValue: 644245120
+        _serializedValue: 773094144
       _rect:
         _x:
           _serializedValue: 0
@@ -589,11 +533,11 @@ MonoBehaviour:
         _serializedValue: 0
     position:
       x:
-        _serializedValue: -523347904
+        _serializedValue: 247615520
       y:
-        _serializedValue: 4378028544
+        _serializedValue: 4602276864
       z:
-        _serializedValue: -371825984
+        _serializedValue: 43977664
   lockOnTargets: []
   switchCharacterOptions: []
   invincibleBodyParts: []

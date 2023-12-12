@@ -22,7 +22,7 @@ MonoBehaviour:
     bakeSpeed: 0
     hitBoxDefinitionType: 0
   _animationSpeed:
-    _serializedValue: 3435973888
+    _serializedValue: 4724464128
   wrapMode: 0
   characterPrefab: {fileID: 4389512840600278581, guid: 5d501972a05b92b49a034ac4799b162e,
     type: 3}
@@ -46,10 +46,10 @@ MonoBehaviour:
   speedKeyFrameToggle: 0
   fixedSpeed: 1
   animSpeedKeyFrame: []
-  totalFrames: 102
-  startUpFrames: 40
-  activeFrames: 31
-  recoveryFrames: 31
+  totalFrames: 74
+  startUpFrames: 36
+  activeFrames: 10
+  recoveryFrames: 28
   applyRootMotion: 0
   lockXMotion: 0
   lockYMotion: 0
@@ -173,8 +173,8 @@ MonoBehaviour:
   stanceChanges: []
   cameraMovements: []
   hits:
-  - activeFramesBegin: 40
-    activeFramesEnds: 70
+  - activeFramesBegin: 36
+    activeFramesEnds: 45
     hitConfirmType: 0
     throwMove: {fileID: 0}
     techMove: {fileID: 0}
@@ -589,11 +589,11 @@ MonoBehaviour:
         _serializedValue: 0
     position:
       x:
-        _serializedValue: -509432896
+        _serializedValue: 306000192
       y:
-        _serializedValue: 4946947584
+        _serializedValue: 4527719424
       z:
-        _serializedValue: 118008512
+        _serializedValue: 205906528
   lockOnTargets: []
   switchCharacterOptions: []
   invincibleBodyParts: []
