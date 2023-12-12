@@ -38,12 +38,11 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Andani_Clothes 1
+  m_Name: Andani_Clothes 4
   m_Shader: {fileID: 4800000, guid: 6e4ae4064600d784cac1e41a9e6f2e59, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
-  - _DETAIL_MAP
   - _DISABLE_SSR_TRANSPARENT
   - _DOUBLESIDED_ON
   - _NORMALMAP
@@ -86,8 +85,8 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseColorMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 15, y: 15}
+        m_Texture: {fileID: 2800000, guid: ddcf844d69a68b24c9d2041613e9a461, type: 3}
+        m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseColorMap0:
         m_Texture: {fileID: 2800000, guid: ddcf844d69a68b24c9d2041613e9a461, type: 3}
@@ -158,7 +157,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailMap:
-        m_Texture: {fileID: 2800000, guid: a8bcf1f7aa2fd174c8c29d5609cf43f4, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 15, y: 15}
         m_Offset: {x: 0, y: 0}
     - _DetailMap0:
@@ -230,8 +229,8 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 15, y: 15}
+        m_Texture: {fileID: 2800000, guid: ddcf844d69a68b24c9d2041613e9a461, type: 3}
+        m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MaskMap:
         m_Texture: {fileID: 0}
@@ -262,7 +261,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NormalMap:
-        m_Texture: {fileID: 2800000, guid: eb8b1ceb46c9dee46a7e6348a1b0407c, type: 3}
+        m_Texture: {fileID: 2800000, guid: 1c97cb536da42ad438eb3d99d3669527, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NormalMap0:
@@ -480,7 +479,7 @@ Material:
     - _CullModeForward: 0
     - _Cutoff: 0.5
     - _DepthOffsetEnable: 0
-    - _DetailAlbedoScale: 0.649
+    - _DetailAlbedoScale: 0
     - _DetailAlbedoScale0: 1
     - _DetailAlbedoScale1: 1
     - _DetailAlbedoScale2: 1
@@ -490,7 +489,7 @@ Material:
     - _DetailNormalScale1: 1
     - _DetailNormalScale2: 1
     - _DetailNormalScale3: 1
-    - _DetailSmoothnessScale: 0.008
+    - _DetailSmoothnessScale: 0.427
     - _DetailSmoothnessScale0: 1
     - _DetailSmoothnessScale1: 1
     - _DetailSmoothnessScale2: 1
@@ -514,7 +513,7 @@ Material:
     - _DstBlend: 0
     - _EMISSION_WEIGHT: 1
     - _EmissiveColorMode: 1
-    - _EmissiveExposureWeight: 1
+    - _EmissiveExposureWeight: 0
     - _EmissiveIntensity: 1
     - _EmissiveIntensityUnit: 0
     - _EnableBlendModePreserveSpecularLighting: 1
@@ -577,7 +576,7 @@ Material:
     - _InheritBaseNormal1: 0
     - _InheritBaseNormal2: 0
     - _InheritBaseNormal3: 0
-    - _InvTilingScale: 0.06666667
+    - _InvTilingScale: 1
     - _InvTilingScale0: 1
     - _InvTilingScale1: 1
     - _InvTilingScale2: 1
@@ -613,7 +612,7 @@ Material:
     - _NormalMapSpace1: 0
     - _NormalMapSpace2: 0
     - _NormalMapSpace3: 0
-    - _NormalScale: 2.15
+    - _NormalScale: 4.27
     - _NormalScale0: 1
     - _NormalScale1: 1
     - _NormalScale2: 1
@@ -646,7 +645,7 @@ Material:
     - _SPECULAR_ROTATION: 0
     - _SPECULAR_ROUGHNESS: 1
     - _SPECULAR_WEIGHT: 0
-    - _Smoothness: 0.033
+    - _Smoothness: 0.025
     - _Smoothness0: 0.5
     - _Smoothness1: 0.5
     - _Smoothness2: 0.5
@@ -717,7 +716,7 @@ Material:
     - _TransparentSortPriority: 0
     - _TransparentWritingMotionVec: 0
     - _TransparentZWrite: 0
-    - _UVBase: 1
+    - _UVBase: 0
     - _UVBase0: 0
     - _UVBase1: 0
     - _UVBase2: 0
@@ -747,7 +746,7 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - _BASE_COLOR: {r: 1, g: 1, b: 1, a: 0}
-    - _BaseColor: {r: 0.8207547, g: 0.19387907, b: 0, a: 1}
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _BaseColor0: {r: 1, g: 1, b: 1, a: 1}
     - _BaseColor1: {r: 1, g: 1, b: 1, a: 1}
     - _BaseColor2: {r: 1, g: 1, b: 1, a: 1}
@@ -755,7 +754,7 @@ Material:
     - _BaseColorMap0_MipInfo: {r: 0, g: 0, b: 0, a: 0}
     - _BaseColorMap_MipInfo: {r: 0, g: 0, b: 0, a: 0}
     - _COAT_COLOR: {r: 0, g: 0, b: 0, a: 0}
-    - _Color: {r: 0.8207547, g: 0.19387904, b: 0, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _DiffusionProfileAsset: {r: 0, g: 0, b: 0, a: 0}
     - _DiffusionProfileAsset0: {r: 0, g: 0, b: 0, a: 0}
     - _DiffusionProfileAsset1: {r: 0, g: 0, b: 0, a: 0}
@@ -784,7 +783,7 @@ Material:
     - _UVDetailsMappingMask1: {r: 1, g: 0, b: 0, a: 0}
     - _UVDetailsMappingMask2: {r: 1, g: 0, b: 0, a: 0}
     - _UVDetailsMappingMask3: {r: 1, g: 0, b: 0, a: 0}
-    - _UVMappingMask: {r: 0, g: 1, b: 0, a: 0}
+    - _UVMappingMask: {r: 1, g: 0, b: 0, a: 0}
     - _UVMappingMask0: {r: 1, g: 0, b: 0, a: 0}
     - _UVMappingMask1: {r: 1, g: 0, b: 0, a: 0}
     - _UVMappingMask2: {r: 1, g: 0, b: 0, a: 0}
