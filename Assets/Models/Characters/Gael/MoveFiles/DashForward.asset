@@ -3498,7 +3498,7 @@ MonoBehaviour:
     clip: {fileID: -1331112454359466971, guid: 57ead33d61297ff4492baf0dc52aa70a, type: 3}
     customHitBoxDefinition: {fileID: 0}
     length:
-      _serializedValue: 2791728896
+      _serializedValue: 2863311616
     bakeSpeed: 1
     hitBoxDefinitionType: 0
   _animationSpeed:
@@ -3524,9 +3524,9 @@ MonoBehaviour:
   cooldownFrames: 0
   disableHeadLook: 1
   speedKeyFrameToggle: 0
-  fixedSpeed: 1
+  fixedSpeed: 0
   animSpeedKeyFrame: []
-  totalFrames: 36
+  totalFrames: 30
   startUpFrames: 5
   activeFrames: 5
   recoveryFrames: 5
