@@ -74,7 +74,7 @@ MonoBehaviour:
     requireButtonPress: 1
     onPressExecution: 1
     buttonSequence: 
-    buttonExecution: 06000000
+    buttonExecution: 08000000
     editorToggle: 1
     buttonSequenceToggle: 1
     buttonExecutionToggle: 1
@@ -104,6 +104,20 @@ MonoBehaviour:
     basicMoveLimitation: 
     possibleMoveStates:
     - possibleState: 0
+      jumpArc: 0
+      jumpArcBegins: 0
+      jumpArcEnds: 100
+      opponentDistance: 0
+      proximityRangeBegins: 0
+      proximityRangeEnds: 100
+      movingForward: 1
+      movingBack: 1
+      standBy: 1
+      blocking: 0
+      blockStunned: 0
+      stunned: 0
+      resetStunValue: 0
+    - possibleState: 1
       jumpArc: 0
       jumpArcBegins: 0
       jumpArcEnds: 100
@@ -152,13 +166,9 @@ MonoBehaviour:
     ignoreGauge: 0
     nextMoveStartupFrame: 1
     linkableMoves:
-    - {fileID: 11400000, guid: 7e914093d8ec7934eb6ad59f877bd3bd, type: 2}
+    - {fileID: 11400000, guid: 15e7c44da22d0664aa32af87fe0ce8f5, type: 2}
     - {fileID: 11400000, guid: 5a69d9a461b297d4da2b3cc5a8923d14, type: 2}
-    - {fileID: 11400000, guid: 81712c35d08a63a4dbf2727eefc5c7b0, type: 2}
-    - {fileID: 11400000, guid: c791cc2e9ae7f3645aa83a6411c74800, type: 2}
-    - {fileID: 11400000, guid: b813937bbca148644a10aae17c7e4531, type: 2}
-    - {fileID: 11400000, guid: ffd90ca91a5d66345884b9748b3e4b27, type: 2}
-    - {fileID: 11400000, guid: 1d2c48744e3d99f4da0d1ff18da185da, type: 2}
+    - {fileID: 11400000, guid: 109dfce7bea64ab42b7ddc31e623530d, type: 2}
     linkableMovesToggle: 1
     hitConfirmToggle: 0
     counterMoveToggle: 0

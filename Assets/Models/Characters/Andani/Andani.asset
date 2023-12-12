@@ -63,20 +63,20 @@ MonoBehaviour:
     canJump: 1
     pressureSensitiveJump: 0
     _jumpForce:
-      _serializedValue: 42949672960
+      _serializedValue: 107374182400
     _minJumpForce:
       _serializedValue: 128849018880
     minJumpDelay: 4
     _jumpDistance:
-      _serializedValue: 42949672960
+      _serializedValue: 25769803776
     _jumpBackDistance:
-      _serializedValue: 42949672960
+      _serializedValue: 25769803776
     cumulativeForce: 1
     multiJumps: 1
     _weight:
       _serializedValue: 343597383680
-    jumpDelay: 10
-    landingDelay: 10
+    jumpDelay: 3
+    landingDelay: 3
     _groundCollisionMass:
       _serializedValue: 2147483648
   headLook:
@@ -106,7 +106,7 @@ MonoBehaviour:
   hideGauges: 00000000000000000000
   _executionTiming:
     _serializedValue: 2147483648
-  possibleAirMoves: 1
+  possibleAirMoves: 0
   _blendingTime:
     _serializedValue: 214748368
   animationType: 1

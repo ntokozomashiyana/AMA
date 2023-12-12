@@ -226,8 +226,8 @@ MonoBehaviour:
   deploymentOptions:
     deploymentType: 1
     activeCharacters:
-    - {fileID: 11400000, guid: 1b9754a16bb5edf4ba2b9f921b61c693, type: 2}
     - {fileID: 11400000, guid: 55e511f23800faf4f899d346e37451a1, type: 2}
+    - {fileID: 11400000, guid: 1b9754a16bb5edf4ba2b9f921b61c693, type: 2}
     - {fileID: 11400000, guid: 56b90e0e72e9aa5408f34fa9179b76ad, type: 2}
     - {fileID: 11400000, guid: 56b90e0e72e9aa5408f34fa9179b76ad, type: 2}
     - {fileID: 11400000, guid: 56b90e0e72e9aa5408f34fa9179b76ad, type: 2}
@@ -1180,7 +1180,7 @@ MonoBehaviour:
     emulateNetwork: 0
     trainingModeDebugger: 1
     preloadedObjects: 1
-    inputsToggle: 0
+    inputsToggle: 1
     networkToggle: 0
     recordToggle: 0
     hitboxColorsToggle: 0
@@ -1196,7 +1196,7 @@ MonoBehaviour:
     recordMatchTools: 0
     playbackPhysics: 0
     displayInputsNetwork: 0
-    displayInputsVersus: 0
+    displayInputsVersus: 1
     displayInputsTraining: 1
     displayInputsStoryMode: 0
     displayInputsChallengeMode: 0
@@ -1249,8 +1249,68 @@ MonoBehaviour:
     distanceBehaviour: []
     multiCoreSupport: 1
     persistentBehavior: 1
-    difficultyToggle: 0
-    difficultySettings: []
+    difficultyToggle: 1
+    difficultySettings:
+    - difficultyLevel: 0
+      overrideTimeBetweenDecisions: 0
+      timeBetweenDecisions: 0
+      overrideTimeBetweenActions: 0
+      timeBetweenActions: 0.05
+      overrideAggressiveness: 0
+      aggressiveness: 0.5
+      overrideRuleCompliance: 0
+      ruleCompliance: 0.9
+      overrideComboEfficiency: 0
+      comboEfficiency: 1
+      startupBehavior: 0
+    - difficultyLevel: 1
+      overrideTimeBetweenDecisions: 0
+      timeBetweenDecisions: 0
+      overrideTimeBetweenActions: 0
+      timeBetweenActions: 0.05
+      overrideAggressiveness: 0
+      aggressiveness: 0.5
+      overrideRuleCompliance: 0
+      ruleCompliance: 0.9
+      overrideComboEfficiency: 0
+      comboEfficiency: 1
+      startupBehavior: 0
+    - difficultyLevel: 2
+      overrideTimeBetweenDecisions: 0
+      timeBetweenDecisions: 0
+      overrideTimeBetweenActions: 0
+      timeBetweenActions: 0.05
+      overrideAggressiveness: 0
+      aggressiveness: 0.5
+      overrideRuleCompliance: 0
+      ruleCompliance: 0.9
+      overrideComboEfficiency: 0
+      comboEfficiency: 1
+      startupBehavior: 0
+    - difficultyLevel: 3
+      overrideTimeBetweenDecisions: 0
+      timeBetweenDecisions: 0
+      overrideTimeBetweenActions: 0
+      timeBetweenActions: 0.05
+      overrideAggressiveness: 0
+      aggressiveness: 0.5
+      overrideRuleCompliance: 0
+      ruleCompliance: 0.9
+      overrideComboEfficiency: 0
+      comboEfficiency: 1
+      startupBehavior: 0
+    - difficultyLevel: 4
+      overrideTimeBetweenDecisions: 0
+      timeBetweenDecisions: 0
+      overrideTimeBetweenActions: 0
+      timeBetweenActions: 0.05
+      overrideAggressiveness: 0
+      aggressiveness: 0.5
+      overrideRuleCompliance: 0
+      ruleCompliance: 0.9
+      overrideComboEfficiency: 0
+      comboEfficiency: 1
+      startupBehavior: 0
     selectedDifficultyLevel: 0
     selectedDifficulty:
       difficultyLevel: 0
@@ -1315,7 +1375,7 @@ MonoBehaviour:
     synchronizationAction: 2
   music: 0
   musicVolume: 1
-  soundfx: 1
+  soundfx: 0
   soundfxVolume: 1
   colorStateOne: {r: 1, g: 0, b: 0, a: 1}
   colorIsHit: {r: 1, g: 0, b: 1, a: 1}

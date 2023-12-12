@@ -117,8 +117,22 @@ MonoBehaviour:
       blockStunned: 0
       stunned: 0
       resetStunValue: 0
+    - possibleState: 1
+      jumpArc: 0
+      jumpArcBegins: 0
+      jumpArcEnds: 100
+      opponentDistance: 0
+      proximityRangeBegins: 0
+      proximityRangeEnds: 100
+      movingForward: 1
+      movingBack: 1
+      standBy: 1
+      blocking: 0
+      blockStunned: 0
+      stunned: 0
+      resetStunValue: 0
     basicMovesToggle: 0
-    statesToggle: 1
+    statesToggle: 0
   moveClassification:
     attackType: 1
     hitType: 0
@@ -137,7 +151,7 @@ MonoBehaviour:
     onBlock: 1
     onParry: 1
     activeFramesBegins: 0
-    activeFramesEnds: 47
+    activeFramesEnds: 27
     counterMoveType: 0
     counterMoveFilter: {fileID: 0}
     disableHitImpact: 1
@@ -152,133 +166,10 @@ MonoBehaviour:
     ignoreGauge: 0
     nextMoveStartupFrame: 1
     linkableMoves:
-    - {fileID: 11400000, guid: 1d2c48744e3d99f4da0d1ff18da185da, type: 2}
     - {fileID: 11400000}
-    linkableMovesToggle: 1
-    hitConfirmToggle: 0
-    counterMoveToggle: 0
-  - linkType: 0
-    allowBuffer: 1
-    onStrike: 1
-    onBlock: 1
-    onParry: 1
-    activeFramesBegins: 0
-    activeFramesEnds: 47
-    counterMoveType: 0
-    counterMoveFilter: {fileID: 0}
-    disableHitImpact: 1
-    anyHitStrength: 1
-    hitStrength: 0
-    anyStrokeHitBox: 1
-    hitBoxType: 0
-    anyHitType: 1
-    hitType: 0
-    ignoreInputs: 0
-    ignorePlayerConditions: 0
-    ignoreGauge: 0
-    nextMoveStartupFrame: 1
-    linkableMoves:
+    - {fileID: 11400000, guid: 15e7c44da22d0664aa32af87fe0ce8f5, type: 2}
+    - {fileID: 11400000, guid: c3315f430240ef342a8dd8eeed2a78bc, type: 2}
     - {fileID: 11400000, guid: 109dfce7bea64ab42b7ddc31e623530d, type: 2}
-    linkableMovesToggle: 0
-    hitConfirmToggle: 0
-    counterMoveToggle: 0
-  - linkType: 0
-    allowBuffer: 1
-    onStrike: 1
-    onBlock: 1
-    onParry: 1
-    activeFramesBegins: 0
-    activeFramesEnds: 47
-    counterMoveType: 0
-    counterMoveFilter: {fileID: 0}
-    disableHitImpact: 1
-    anyHitStrength: 1
-    hitStrength: 0
-    anyStrokeHitBox: 1
-    hitBoxType: 0
-    anyHitType: 1
-    hitType: 0
-    ignoreInputs: 0
-    ignorePlayerConditions: 0
-    ignoreGauge: 0
-    nextMoveStartupFrame: 1
-    linkableMoves:
-    - {fileID: 11400000, guid: 7e914093d8ec7934eb6ad59f877bd3bd, type: 2}
-    linkableMovesToggle: 0
-    hitConfirmToggle: 0
-    counterMoveToggle: 0
-  - linkType: 0
-    allowBuffer: 1
-    onStrike: 1
-    onBlock: 1
-    onParry: 1
-    activeFramesBegins: 0
-    activeFramesEnds: 47
-    counterMoveType: 0
-    counterMoveFilter: {fileID: 0}
-    disableHitImpact: 1
-    anyHitStrength: 1
-    hitStrength: 0
-    anyStrokeHitBox: 1
-    hitBoxType: 0
-    anyHitType: 1
-    hitType: 0
-    ignoreInputs: 0
-    ignorePlayerConditions: 0
-    ignoreGauge: 0
-    nextMoveStartupFrame: 1
-    linkableMoves:
-    - {fileID: 11400000, guid: c791cc2e9ae7f3645aa83a6411c74800, type: 2}
-    linkableMovesToggle: 0
-    hitConfirmToggle: 0
-    counterMoveToggle: 0
-  - linkType: 0
-    allowBuffer: 1
-    onStrike: 1
-    onBlock: 1
-    onParry: 1
-    activeFramesBegins: 0
-    activeFramesEnds: 47
-    counterMoveType: 0
-    counterMoveFilter: {fileID: 0}
-    disableHitImpact: 1
-    anyHitStrength: 1
-    hitStrength: 0
-    anyStrokeHitBox: 1
-    hitBoxType: 0
-    anyHitType: 1
-    hitType: 0
-    ignoreInputs: 0
-    ignorePlayerConditions: 0
-    ignoreGauge: 0
-    nextMoveStartupFrame: 1
-    linkableMoves:
-    - {fileID: 11400000, guid: b813937bbca148644a10aae17c7e4531, type: 2}
-    linkableMovesToggle: 0
-    hitConfirmToggle: 0
-    counterMoveToggle: 0
-  - linkType: 0
-    allowBuffer: 1
-    onStrike: 1
-    onBlock: 1
-    onParry: 1
-    activeFramesBegins: 0
-    activeFramesEnds: 47
-    counterMoveType: 0
-    counterMoveFilter: {fileID: 0}
-    disableHitImpact: 1
-    anyHitStrength: 1
-    hitStrength: 0
-    anyStrokeHitBox: 1
-    hitBoxType: 0
-    anyHitType: 1
-    hitType: 0
-    ignoreInputs: 0
-    ignorePlayerConditions: 0
-    ignoreGauge: 0
-    nextMoveStartupFrame: 1
-    linkableMoves:
-    - {fileID: 11400000, guid: 81712c35d08a63a4dbf2727eefc5c7b0, type: 2}
     linkableMovesToggle: 0
     hitConfirmToggle: 0
     counterMoveToggle: 0
@@ -299,7 +190,7 @@ MonoBehaviour:
     _gaugeGainOnMiss:
       _serializedValue: 0
     _gaugeGainOnHit:
-      _serializedValue: 268005965824
+      _serializedValue: 8589934592
     _gaugeGainOnBlock:
       _serializedValue: 4294967296
     _opGaugeGainOnBlock:

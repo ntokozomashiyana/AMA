@@ -22,7 +22,7 @@ MonoBehaviour:
     bakeSpeed: 0
     hitBoxDefinitionType: 0
   _animationSpeed:
-    _serializedValue: 6442450944
+    _serializedValue: 8589934592
   wrapMode: 0
   characterPrefab: {fileID: 6009371781268647409, guid: 5ddc7a9da333e39498800d5c4829a403,
     type: 3}
@@ -46,10 +46,10 @@ MonoBehaviour:
   speedKeyFrameToggle: 0
   fixedSpeed: 1
   animSpeedKeyFrame: []
-  totalFrames: 80
-  startUpFrames: 40
-  activeFrames: 11
-  recoveryFrames: 29
+  totalFrames: 60
+  startUpFrames: 25
+  activeFrames: 26
+  recoveryFrames: 9
   applyRootMotion: 0
   lockXMotion: 0
   lockYMotion: 0
@@ -74,10 +74,10 @@ MonoBehaviour:
     requireButtonPress: 1
     onPressExecution: 1
     buttonSequence: 
-    buttonExecution: 06000000
-    editorToggle: 1
+    buttonExecution: 08000000
+    editorToggle: 0
     buttonSequenceToggle: 0
-    buttonExecutionToggle: 0
+    buttonExecutionToggle: 1
   altInputs:
     chargeMove: 0
     _chargeTiming:
@@ -130,7 +130,34 @@ MonoBehaviour:
     anyAttackType: 1
     anyHitType: 1
     anyHitConfirmType: 1
-  frameLinks: []
+  frameLinks:
+  - linkType: 2
+    allowBuffer: 1
+    onStrike: 1
+    onBlock: 1
+    onParry: 1
+    activeFramesBegins: 50
+    activeFramesEnds: 59
+    counterMoveType: 0
+    counterMoveFilter: {fileID: 0}
+    disableHitImpact: 1
+    anyHitStrength: 1
+    hitStrength: 0
+    anyStrokeHitBox: 1
+    hitBoxType: 0
+    anyHitType: 1
+    hitType: 0
+    ignoreInputs: 0
+    ignorePlayerConditions: 0
+    ignoreGauge: 0
+    nextMoveStartupFrame: 1
+    linkableMoves:
+    - {fileID: 11400000, guid: a81514042c809d248bd6ec65aeeb78a3, type: 2}
+    - {fileID: 11400000, guid: 5acbbecc76d7b5b4e9af675a7bf0b6e0, type: 2}
+    - {fileID: 11400000, guid: 29bfe9adc1d165c45b560a5d22ffca60, type: 2}
+    linkableMovesToggle: 1
+    hitConfirmToggle: 0
+    counterMoveToggle: 0
   gauges:
   - castingFrame: 0
     targetGauge: 0
@@ -173,7 +200,7 @@ MonoBehaviour:
   stanceChanges: []
   cameraMovements: []
   hits:
-  - activeFramesBegin: 40
+  - activeFramesBegin: 25
     activeFramesEnds: 50
     hitConfirmType: 0
     throwMove: {fileID: 0}
@@ -274,7 +301,7 @@ MonoBehaviour:
     _damageOnBlock:
       _serializedValue: 0
     doesntKill: 0
-    hitType: 4
+    hitType: 2
     resetPreviousHorizontalPush: 0
     resetPreviousVerticalPush: 0
     resetPreviousSidewaysPush: 0
@@ -383,8 +410,8 @@ MonoBehaviour:
         z:
           _serializedValue: 0
     hitToggle: 1
-    damageOptionsToggle: 1
-    hitStunOptionsToggle: 1
+    damageOptionsToggle: 0
+    hitStunOptionsToggle: 0
     forceOptionsToggle: 0
     opponentForceToggle: 0
     selfForceToggle: 0
@@ -392,7 +419,7 @@ MonoBehaviour:
     overrideEventsToggle: 0
     hitConditionsToggle: 0
     pullInToggle: 0
-    hurtBoxesToggle: 1
+    hurtBoxesToggle: 0
     wallBounceToggle: 0
     groundBounceToggle: 0
     hurtBoxes:
@@ -408,7 +435,7 @@ MonoBehaviour:
         z:
           _serializedValue: 0
       _radius:
-        _serializedValue: 773094144
+        _serializedValue: 858993472
       _rect:
         _x:
           _serializedValue: 0
@@ -533,11 +560,11 @@ MonoBehaviour:
         _serializedValue: 0
     position:
       x:
-        _serializedValue: 247615520
+        _serializedValue: -184273904
       y:
-        _serializedValue: 4602276864
+        _serializedValue: 5084734976
       z:
-        _serializedValue: 43977664
+        _serializedValue: 202162304
   lockOnTargets: []
   switchCharacterOptions: []
   invincibleBodyParts: []

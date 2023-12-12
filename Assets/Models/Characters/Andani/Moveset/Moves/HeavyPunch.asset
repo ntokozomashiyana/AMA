@@ -137,7 +137,7 @@ MonoBehaviour:
     onBlock: 1
     onParry: 1
     activeFramesBegins: 0
-    activeFramesEnds: 69
+    activeFramesEnds: 38
     counterMoveType: 0
     counterMoveFilter: {fileID: 0}
     disableHitImpact: 1
@@ -152,13 +152,9 @@ MonoBehaviour:
     ignoreGauge: 0
     nextMoveStartupFrame: 1
     linkableMoves:
-    - {fileID: 11400000, guid: 7e914093d8ec7934eb6ad59f877bd3bd, type: 2}
     - {fileID: 11400000, guid: 5a69d9a461b297d4da2b3cc5a8923d14, type: 2}
-    - {fileID: 11400000, guid: 81712c35d08a63a4dbf2727eefc5c7b0, type: 2}
-    - {fileID: 11400000, guid: c791cc2e9ae7f3645aa83a6411c74800, type: 2}
-    - {fileID: 11400000, guid: b813937bbca148644a10aae17c7e4531, type: 2}
-    - {fileID: 11400000, guid: ffd90ca91a5d66345884b9748b3e4b27, type: 2}
-    - {fileID: 11400000, guid: 1d2c48744e3d99f4da0d1ff18da185da, type: 2}
+    - {fileID: 11400000, guid: 15e7c44da22d0664aa32af87fe0ce8f5, type: 2}
+    - {fileID: 11400000, guid: c3315f430240ef342a8dd8eeed2a78bc, type: 2}
     linkableMovesToggle: 1
     hitConfirmToggle: 0
     counterMoveToggle: 0

@@ -15,16 +15,16 @@ MonoBehaviour:
   gameplayType: 1
   animMap:
     animationMaps: []
-    clip: {fileID: -4059497948015629504, guid: 5a22ca3056bea714b86db452a95403ef, type: 3}
+    clip: {fileID: 9119534266636528073, guid: 2d1f8bc85cd25224092473f976aa1c27, type: 3}
     customHitBoxDefinition: {fileID: 0}
     length:
-      _serializedValue: 4796046848
+      _serializedValue: 2791729152
     bakeSpeed: 0
     hitBoxDefinitionType: 0
   _animationSpeed:
-    _serializedValue: 3006477056
+    _serializedValue: 2576980480
   wrapMode: 1
-  characterPrefab: {fileID: 2784035237574922318, guid: 34dd5f6b9de8e9644809980495d5ebea,
+  characterPrefab: {fileID: 7874467865893363913, guid: 93d56fe21d70bfb478bfc2e8bae95041,
     type: 3}
   moveName: jump
   description: jump
@@ -44,9 +44,9 @@ MonoBehaviour:
   cooldownFrames: 0
   disableHeadLook: 0
   speedKeyFrameToggle: 0
-  fixedSpeed: 0
+  fixedSpeed: 1
   animSpeedKeyFrame: []
-  totalFrames: 45
+  totalFrames: 39
   startUpFrames: 5
   activeFrames: 23
   recoveryFrames: 102
@@ -103,7 +103,7 @@ MonoBehaviour:
   selfConditions:
     basicMoveLimitation: 
     possibleMoveStates:
-    - possibleState: 2
+    - possibleState: 0
       jumpArc: 0
       jumpArcBegins: 0
       jumpArcEnds: 100
@@ -377,11 +377,11 @@ MonoBehaviour:
         _serializedValue: 0
     position:
       x:
-        _serializedValue: -76028224
+        _serializedValue: 0
       y:
-        _serializedValue: 4366919168
+        _serializedValue: 0
       z:
-        _serializedValue: 111265784
+        _serializedValue: 0
   lockOnTargets: []
   switchCharacterOptions: []
   invincibleBodyParts: []
