@@ -44,9 +44,9 @@ MonoBehaviour:
   cooldownFrames: 0
   disableHeadLook: 1
   speedKeyFrameToggle: 0
-  fixedSpeed: 1
+  fixedSpeed: 0
   animSpeedKeyFrame: []
-  totalFrames: 32
+  totalFrames: 44
   startUpFrames: 18
   activeFrames: 7
   recoveryFrames: 7
