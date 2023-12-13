@@ -34,6 +34,7 @@ RectTransform:
   - {fileID: 234544304611694236}
   - {fileID: 2450410121726765082}
   m_Father: {fileID: 0}
+  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -134,11 +135,12 @@ RectTransform:
   m_Children:
   - {fileID: 8389992201286205048}
   m_Father: {fileID: 22400000}
+  m_RootOrder: -2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 69, y: 753}
-  m_SizeDelta: {x: 676.9463, y: 97.6001}
+  m_AnchoredPosition: {x: 178.14502, y: 753}
+  m_SizeDelta: {x: 895.2363, y: 97.6001}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8778395346579667246
 CanvasRenderer:
@@ -169,19 +171,19 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: b74447a0709dacc4d80c9a89d84734db, type: 3}
-    m_FontSize: 80
+    m_Font: {fileID: 12800000, guid: 4a3525e0e161f1840911838ce3f6ad01, type: 3}
+    m_FontSize: 100
     m_FontStyle: 0
     m_BestFit: 1
-    m_MinSize: 6
-    m_MaxSize: 90
+    m_MinSize: 1
+    m_MaxSize: 100
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Give up! It is done... What do you have to say for yourself?
+  m_Text: The devs better not nerf me. Beating you up is fun.
 --- !u!1 &1148355979346904247
 GameObject:
   m_ObjectHideFlags: 0
@@ -213,10 +215,11 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 234544304611694236}
+  m_RootOrder: -2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -657, y: -0.0000076294}
+  m_AnchoredPosition: {x: -739, y: -0.0000076294}
   m_SizeDelta: {x: 401.1278, y: 312.0184}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &636498777298136917
@@ -289,11 +292,12 @@ RectTransform:
   m_Children:
   - {fileID: 6954605259178656930}
   m_Father: {fileID: 22400000}
+  m_RootOrder: -2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -35, y: 209}
-  m_SizeDelta: {x: 676.9463, y: 97.6001}
+  m_AnchoredPosition: {x: -224.45929, y: 209}
+  m_SizeDelta: {x: 1055.8647, y: 97.6001}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3315791434105419067
 CanvasRenderer:
@@ -324,19 +328,19 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: b74447a0709dacc4d80c9a89d84734db, type: 3}
-    m_FontSize: 80
+    m_Font: {fileID: 12800000, guid: 4a3525e0e161f1840911838ce3f6ad01, type: 3}
+    m_FontSize: 100
     m_FontStyle: 0
     m_BestFit: 1
-    m_MinSize: 6
-    m_MaxSize: 90
+    m_MinSize: 1
+    m_MaxSize: 100
     m_Alignment: 7
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: I am... I am your... (dies)
+  m_Text: You just wait until I get all my animations, and then we shall see
 --- !u!1 &8459925146795772323
 GameObject:
   m_ObjectHideFlags: 0
@@ -368,10 +372,11 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2450410121726765082}
+  m_RootOrder: -2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 662, y: 40}
+  m_AnchoredPosition: {x: 802, y: 40}
   m_SizeDelta: {x: 474.8733, y: 385.7641}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1319494833527308148
@@ -402,7 +407,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: e44d3eec0db228b4d8d39519300f8aa6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: fdb1732c792ee994f8dc192a81e34263, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

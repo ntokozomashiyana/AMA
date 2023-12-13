@@ -83,7 +83,7 @@ MonoBehaviour:
   displayMode: 0
   portraitPlayer1: {fileID: 11400068}
   portraitPlayer2: {fileID: 11400020}
-  background3dPrefab: {fileID: 0}
+  background3dPrefab: {fileID: 100030}
   positionPlayer1: {x: -6, y: 0, z: 0}
   positionPlayer2: {x: 6, y: 0, z: 0}
   characters:
@@ -2266,7 +2266,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 11400026}
-        m_TargetAssemblyTypeName: 
+        m_TargetAssemblyTypeName: DefaultCharacterSelectionScreen, Assembly-CSharp
         m_MethodName: GoToPreviousScreen
         m_Mode: 1
         m_Arguments:

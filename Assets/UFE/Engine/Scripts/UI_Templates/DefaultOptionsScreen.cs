@@ -133,12 +133,7 @@ public class DefaultOptionsScreen : OptionsScreen{
 	#region public instance methods
 	public virtual void SetAIDifficulty(Slider slider){
 		if (this.visible && slider != null){
-			//this.SetAIDifficulty(UFE.config.aiOptions.difficultySettings[Debug.Log(Mathf.RoundToInt(slider.value))]);
-			Debug.Log("Rounded value: " + Mathf.RoundToInt(slider.value));
-			for(int i = 0; i < UFE.config.aiOptions.difficultySettings.Length; i++)
-			{
-				Debug.Log("Index: " + i + " --- " + UFE.config.aiOptions.difficultySettings[i]);
-            }
+			this.SetAIDifficulty(UFE.config.aiOptions.difficultySettings[Mathf.RoundToInt(slider.value)]);
 
         }
 	}

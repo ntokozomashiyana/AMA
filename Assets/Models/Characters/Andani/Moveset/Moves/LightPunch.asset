@@ -170,7 +170,7 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 15e7c44da22d0664aa32af87fe0ce8f5, type: 2}
     - {fileID: 11400000, guid: c3315f430240ef342a8dd8eeed2a78bc, type: 2}
     - {fileID: 11400000, guid: 109dfce7bea64ab42b7ddc31e623530d, type: 2}
-    linkableMovesToggle: 0
+    linkableMovesToggle: 1
     hitConfirmToggle: 0
     counterMoveToggle: 0
   gauges:
