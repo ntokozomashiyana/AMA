@@ -155,13 +155,13 @@ MonoBehaviour:
           conversationAfterBattle: {fileID: 11400004, guid: a51466437250e2f489a4c68286ff03e3,
             type: 3}
           opponentCharacterIndex: 1
-          possibleStagesIndexes: 01000000
+          possibleStagesIndexes: 00000000
         - conversationBeforeBattle: {fileID: 11400004, guid: 9994f2f4c6d0c4bbaadbe0fd864bec81,
             type: 3}
           conversationAfterBattle: {fileID: 11400004, guid: 0af97198580ef9041818508db8c2a75d,
             type: 3}
           opponentCharacterIndex: 1
-          possibleStagesIndexes: 00000000
+          possibleStagesIndexes: 01000000
         showOpponentsInEditor: 1
       - maxFights: 4
         mode: 2
@@ -241,7 +241,7 @@ MonoBehaviour:
     draw: Draw
     defaultSelection: 1
   deploymentOptions:
-    deploymentType: 1
+    deploymentType: 0
     activeCharacters:
     - {fileID: 11400000, guid: 1b9754a16bb5edf4ba2b9f921b61c693, type: 2}
     - {fileID: 11400000, guid: 55e511f23800faf4f899d346e37451a1, type: 2}
